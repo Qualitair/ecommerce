@@ -394,8 +394,8 @@ function getCurrentUrl() {
 
 
 // FIX URL
-// update_option('siteurl','http://www.qualitair.com.au');
-// update_option('home','http://www.qualitair.com.au');
+update_option('siteurl','http://qsi.esy.es');
+update_option('home','http://qsi.esy.es');
 /**
  * Load theme
  */
