@@ -1,0 +1,166 @@
+.heapBox
+{
+clear:both;
+display:inline-block;
+line-height:35px;
+position:relative;
+}
+
+.heapBox *
+{
+margin:0;
+padding:0;
+outline: none;
+}
+
+.heapBox.disabled .holder
+{
+color:#59A6DA;
+}
+
+.heapBox a{
+text-decoration:none !important;
+color:#fff;
+}
+
+.heapBox .holder
+{
+width:150px;
+overflow:hidden;
+background:#2980b9;
+text-indent:20px;
+height:35px;
+color: #eee;
+}
+
+.heapBox .handler
+{
+width:25px;
+background:#2980b9 url(../gfx/heapbox_handler_bg.jpg);
+height:35px;
+}
+
+.heapBox .holder,.heapBox .handler
+{
+float:left;
+position:relative;
+z-index:10;
+}
+
+.form-custom-admin .handler {
+  width: 8%;
+  height: 100%;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background:#f4f4f6 url(../gfx/heapbox_handler_bg_white.jpg);
+  background-position: center 7px;
+  background-repeat: no-repeat;
+  border: 2px solid #ccc;
+  color: #555;
+  border-left: 0px;
+}
+
+.heapBox div.heap
+{
+display:none;
+position:absolute;
+list-style-type:none;
+left:0;
+width:175px;
+top:37px;
+overflow:hidden;
+border: 1px solid #ccc !important;
+z-index:1111;
+
+}
+
+.heapBox .heap .heapOptions
+{
+display:block;
+z-index:20;
+position:relative;
+overflow: hidden;
+}
+
+.heapBox .heap a.sliderUp
+{
+display:block;
+width:100%;
+height:15px;
+background:#2980b9 url(../gfx/slider_arrow_up.png);
+background-repeat:no-repeat;
+background-position:center center;
+border-bottom:1px solid #125683;
+position:absolute;
+top:0px;
+z-index:30;
+}
+
+.heapBox .heap a.sliderDown
+{
+display:block;
+width:100%;
+height:15px;
+background:#2980b9 url(../gfx/slider_arrow_down.png);
+background-repeat:no-repeat;
+background-position:center center;
+border-top:1px solid #125683;
+position:absolute;
+bottom:0px;
+z-index:30;
+}
+
+.heapBox .heap .heapOptions .heapOption
+{
+z-index:20;
+position:relative;
+display:block;
+height:35px;
+}
+
+.heapBox .heap .heapOptions .heapOption a{
+width:100%;
+display:block;
+background:#fff;
+text-align:left;
+text-indent:10px;
+color: #333;
+}
+.heapBox .heap .heapOptions .heapOption:not(:first-child) a{
+border-top: 1px dotted #ccc !important;
+}
+
+.heapBox .heap .heapOptions .heapOption a:hover,
+.heapBox .heap .heapOptions .heapOption a.selected{
+background:#eee;
+color: #000;
+}
+
+.heapBox .heap .heapOptions .heapOption a.disabled{
+	color:#54A4D9;
+}
+
+/** override */
+.bb-product-view .heapBox {
+  width: 100%;
+  padding: 0 30px;
+}
+
+.bb-product-view .heapBox .holder {
+  width: 90%;
+}
+.bb-product-view .heapBox .handler {
+  width: 10%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bb-product-view .heapBox div.heap {
+  width: 100%;
+  padding: 0 30px;
+  border: 0px solid transparent !important;
+}
+.bb-product-view .heapBox div.heap ul {
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}

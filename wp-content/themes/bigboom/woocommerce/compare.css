@@ -1,0 +1,201 @@
+h1 {
+  background-color: transparent;
+  font-size: 16px;
+  color: #444;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+table.compare-list {
+  margin: 10px 0;
+  table-layout: fixed;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+table.compare-list thead,
+table.compare-list tfoot {
+  display: none;
+}
+table.compare-list tr th,
+table.compare-list tr td,
+table.compare-list tr .price.repeated td {
+  padding: 10px;
+}
+table.compare-list tr th,
+table.compare-list tr td {
+  border-bottom: 1px solid #ddd;
+}
+table.compare-list .remove td {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+table.compare-list .remove td a {
+  color: #555;
+  text-decoration: none;
+}
+table.compare-list .remove td a:hover {
+  color: #da4b52;
+}
+table.compare-list .remove td a .remove {
+  display: none;
+}
+table.compare-list .remove th {
+  border-bottom: none;
+}
+table.compare-list .image td {
+  border-bottom: none;
+}
+table.compare-list .image th {
+  border-bottom: none;
+}
+table.compare-list .title td {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #555;
+  border-bottom: none;
+  padding-top: 0;
+}
+table.compare-list .title th {
+  color: #fff;
+  font-size: 0;
+  border-bottom: none;
+}
+table.compare-list .price td {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+  border-bottom: none;
+  padding-top: 0;
+  text-decoration: none;
+}
+table.compare-list .price th {
+  color: #fff;
+  font-size: 0;
+  border-bottom: none;
+}
+table.compare-list .add-to-cart td {
+  padding-bottom: 40px;
+}
+table.compare-list .add-to-cart td a {
+  padding: 10px 12px;
+  background-color: #333;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  color: #fff;
+  border-radius: 0;
+  font-weight: 400;
+  font-size: 12px;
+  border: none;
+  text-decoration: none;
+}
+table.compare-list .add-to-cart td a:hover {
+  background-color: #da4b52;
+  color: #fff;
+}
+table.compare-list .add-to-cart th {
+  color: #fff;
+  font-size: 0;
+}
+table.compare-list .description td {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 13px;
+  color: #444;
+  line-height: 1.5;
+}
+table.compare-list .yith-woocompare-widget ul.products-list a.remove {
+  float: left;
+}
+table.compare-list .stock td span {
+  color: #b0d95e;
+}
+table.compare-list .stock td span.out-of-stock {
+  color: #aaa;
+  text-decoration: line-through;
+}
+table.compare-list tr th .fixed-th {
+  width: 195px;
+}
+table.compare-list tr th {
+  width: 195px;
+  max-width: 195px;
+  min-width: 195px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 14px;
+  color: #444;
+  font-weight: 700;
+  font-family: 'Raleway', Arial, sans-serif;
+}
+table.compare-list tr td {
+  width: 300px;
+  max-width: 300px;
+  min-width: 300px;
+  text-align: center;
+}
+table.compare-list tr td.odd,
+table.compare-list tr td.even {
+  border-left: 1px solid #ddd;
+}
+table.compare-list tr td img {
+  background: none repeat scroll 0 0 #fff;
+  border: 1px solid #efefef;
+  height: auto;
+  max-width: 100%;
+  padding: 5px;
+  max-width: none;
+}
+.table-wrapper {
+  width: 100%;
+}
+.dataTables_scroll .dataTables_scrollHead table.compare-list {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.dataTables_scroll .dataTables_scrollBody table.compare-list {
+  border-left: 0;
+}
+.dataTables_scroll .dataTables_scrollFoot table.compare-list {
+  border: none;
+}
+.DTFC_LeftWrapper .DTFC_LeftBodyWrapper table.compare-list {
+  border-top: 0;
+  border-right: 0;
+}
+.DTFC_LeftWrapper .DTFC_LeftBodyWrapper table.compare-list .image th .fixed-th {
+  min-height: 154px;
+}
+.DTFC_LeftFootWrapper table.compare-list {
+  border: none;
+}
+.blue table.compare-list .add-to-cart td a:hover {
+  background-color: #428bca;
+}
+.green table.compare-list .add-to-cart td a:hover {
+  background-color: #b0d95e;
+}
+.orange table.compare-list .add-to-cart td a:hover {
+  background-color: #f08a47;
+}
+.purple table.compare-list .add-to-cart td a:hover {
+  background-color: #c74a73;
+}
+.yellow table.compare-list .add-to-cart td a:hover {
+  background-color: #ff9c00;
+}
+.brown table.compare-list .add-to-cart td a:hover {
+  background-color: #987654;
+}
+.cyan table.compare-list .add-to-cart td a:hover {
+  background-color: #1abc9c;
+}
+.skyblue table.compare-list .add-to-cart td a:hover {
+  background-color: #00cdcd;
+}
+.gray table.compare-list .add-to-cart td a:hover {
+  background-color: #656565;
+}

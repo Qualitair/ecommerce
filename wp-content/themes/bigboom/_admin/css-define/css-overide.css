@@ -1,0 +1,184 @@
+/**
+  Top right menu
+ */
+.topbar-sidebar .menu li a {
+  transition: 0s;
+  border: 1px solid transparent;
+}
+.topbar-sidebar .menu li a i {
+	font-size: 16px;
+	position: relative;
+	top: -2px;
+	padding-right: 0px;
+	margin-right: 2px;
+}
+.topbar-sidebar .menu li:hover a {
+  background: #fff;
+  color: #555;
+  text-shadow: none;
+  box-shadow: 0px 0px 1px #555;
+  border: 1px solid #555;
+  border-bottom-width: 0px;
+}
+.topbar-sidebar .menu li:hover .sub-menu,
+.topbar-sidebar .menu li .sub-menu {
+  background: #fff;
+  opacity: 1 !important;
+  margin-top: 10px;
+  padding-top: 1px;
+  border: 1px solid #ccc;
+  border-top-width: 0px;
+  min-width: 100px;
+}
+.topbar-sidebar .menu li:hover li a,
+.topbar-sidebar .menu li li a,
+.topbar-sidebar .menu li li a:hover {
+  background: #fff;
+  padding: 5px 0px 5px 15px;
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+  width: auto;
+  text-shadow: none;
+  box-shadow: none;  
+  border: none;
+}
+
+.topbar-sidebar .menu li li a:hover {
+	color: gray;
+	background: menu;
+}
+
+.topbar-sidebar .menu li li a i {
+	font-size: 15px;
+	position: relative;
+	padding-right: 0px;
+	margin-right:3px;
+	top: -1px;
+}
+
+
+/**
+  -------------------------
+  FIELDS custom
+  -------------------------
+ */
+
+.button.general {
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 20px;    
+    vertical-align: middle;
+    cursor: pointer;    
+    display: inline-block;    
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    word-wrap: break-word;    
+    transition: all .2s ease-in-out;
+    line-height: normal;    
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.button.general.blue {  
+    border-color: #5aa1e3;
+    background-color: #5aa1e3;
+}
+
+.button.general.blue:hover {  
+    text-decoration: none;
+    color: menu;
+}
+
+.checkbox.general {  
+    border: 1px solid #b4b9be;
+    background: #fff;
+    color: #555;
+    clear: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    height: 20px;
+    margin: -4px 4px 0 0;
+    outline: 0;
+    padding: 0 !important;
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+    min-width: 20px;
+    -webkit-appearance: none;
+    -webkit-box-shadow: inset 0 1px 2px rgba( 0, 0, 0, 0.1 );
+    box-shadow: inset 0 1px 2px rgba( 0, 0, 0, 0.1 );
+    -webkit-transition: .05s border-color ease-in-out;
+    transition: .05s border-color ease-in-out;
+}
+
+.checkbox.general:checked:before {
+    content: '\f00c';
+    margin: -3px 0 0 -4px;
+    color: #1e8cbe;
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    font-size: 18px;
+    font-family: FontAwesome;
+    margin-top: 9px;
+    margin-left: 1px;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+/** site header fixed */
+.site-header-fixed {
+  position: fixed;
+  z-index: 10001;
+  display: none;
+  top: 0px;
+  width: 100%;
+  padding: 10px 0px 2px 0px;
+  border-bottom-width: 2px;
+}
+
+.site-header-fixed .logo img {
+	height: 55px;
+	width: 90px;
+	padding: 0px;
+	position: relative;
+	margin-left: 100px;
+}
+.site-header-fixed .header-sidebar {
+	margin: 0px 0px;
+}
+
+.ui-autocomplete.fixed-autosearch {
+  position: fixed !important;
+  z-index: 10002;
+}
+
+/** hide the fixed site header **/
+@media only screen and (max-width: 1200px) {
+  .site-header-fixed {
+    display: none !important;
+  }
+}
+
+h2.section-heading {
+    border-bottom: 1px solid #296191;
+    padding-bottom: 5px;
+    font-size:20px !important;
+    color:#296191;
+}
+
+
+/** @overide woocommerce css **/
+
+.woocommerce div.product form.cart .reset_variations {
+  display: block !important;
+  clear: both;
+  color: red;
+  background: url(http://findicons.com/files/icons/1686/led/16/cross.png) no-repeat 2px 2px;
+  padding-left: 22px;
+}

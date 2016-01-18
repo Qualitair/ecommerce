@@ -1,0 +1,175 @@
+.footer-ads {
+	background-color: @gray-lighter;
+	padding: 25px 0;
+}
+
+.site-footer {
+	background: url(img/footer-bg.jpg) center center;
+}
+
+.footer-widgets {
+	padding: 40px 0 20px;
+}
+
+.site-info {
+	color: #888;
+	padding: 0 0 20px 0;
+
+	hr {
+		margin: 0 0 20px 0;
+		border-top: 1px solid rgba(255,255,255,0.1);
+	}
+
+	a {
+		color: #888;
+
+		&:hover {
+			color: @border-secondary;
+		}
+	}
+}
+
+.footer-menu {
+	li {
+		padding: 0 10px;
+		margin-right: -4px;
+		border-right: 1px solid #444;
+
+		&:first-child {
+			padding-left: 0;
+		}
+
+		&:last-child {
+			padding-right: 0;
+			border-right-width: 0;
+		}
+
+		ul {
+			display: none;
+		}
+	}
+
+	a {
+		line-height: 15px;
+	}
+}
+
+.social-icons {
+  	position: fixed;
+	right: -120px;
+  	top: 150px;
+  	z-index: 999;
+  	width: 160px;
+
+	a {
+		transition: 0.6s ease;
+		color: @light;
+		margin-bottom: 1px;
+		display: block;
+		overflow: hidden;
+		position: relative;
+		height: 40px;
+
+		.fa {
+			font-size: 20px;
+			line-height: 40px;
+			text-align: center;
+			display: inline-block;
+			width: 40px;
+			height: 40px;
+		}
+
+		span {
+			font-size: 11px;
+			font-family: @font-family-primary;
+			white-space: nowrap;
+			position: relative;
+			top: -3px;
+		}
+
+		&:hover {
+			margin-left: -120px;
+		}
+	}
+
+	.bb-facebook {
+		background-color: #39599f;
+	}
+	.bb-twitter {
+		background-color: #45b0e3;
+	}
+	.bb-pinterest {
+		background-color: #cd2026;
+	}
+	.bb-google,
+	.bb-google-plus {
+		background-color: #df5138;
+	}
+	.bb-flickr {
+		background-color: #ff0086;
+	}
+	.bb-vimeo-square {
+		background-color: #45afe1;
+	}
+	.bb-linkedin {
+		background-color: #0175b2;
+	}
+	.bb-youtube {
+		background-color: #e52d27;
+	}
+	.bb-dribbble {
+		background-color: #e84c89;
+	}
+	.bb-behance {
+		background-color: #329dd5;
+	}
+	.bb-tumblr {
+		background-color: #2a445d;
+	}
+	.bb-soundcloud {
+		background-color: #f65d0d;
+	}
+	.bb-spotify {
+		background-color: #7eb615;
+	}
+	.bb-github {
+		background-color: #60b044;
+	}
+	.bb-instagram {
+		background-color: #5280a4;
+	}
+	.bb-foursquare {
+		background-color: #ef4b78;
+	}
+	.bb-picasa {
+		background-color: #8e68a3;
+	}
+	.bb-lastfm {
+		background-color: #d7000e;
+	}
+	.bb-envelope {
+		background-color: #2a056f;
+	}
+}
+
+.backtotop {
+	bottom: 135px;
+  	display: none;
+  	height: 40px;
+  	position: fixed;
+  	right: 0;
+  	width: 40px;
+  	z-index: 9999;
+  	cursor: pointer;
+  	font-size: 22px;
+  	font-weight: normal;
+  	text-align: center;
+  	line-height: 38px;
+  	background-color: @primary-color;
+  	color: @light;
+
+  	&:hover {
+  		background-color: @secondary-color;
+  		color: @light;
+  	}
+}

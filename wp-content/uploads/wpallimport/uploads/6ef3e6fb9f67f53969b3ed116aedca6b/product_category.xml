@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<categoryname><![CDATA[Diffuser]]></categoryname>
+	</node>
+	<node>
+		<categoryname><![CDATA[Grilles/Registers]]></categoryname>
+	</node>
+	<node>
+		<categoryname><![CDATA[Trunking]]></categoryname>
+	</node>
+	<node>
+		<categoryname><![CDATA[Ducts]]></categoryname>
+	</node>
+	<node>
+		<categoryname><![CDATA[Starting Colar]]></categoryname>
+	</node>
+	<node>
+		<categoryname><![CDATA[Neck Adapter]]></categoryname>
+	</node>
+	<node>
+		<categoryname><![CDATA[Controllers]]></categoryname>
+	</node>
+	<node>
+		<categoryname><![CDATA[Dampers]]></categoryname>
+	</node>
+	<node>
+		<categoryname><![CDATA[Coil]]></categoryname>
+	</node>
+	<node>
+		<categoryname><![CDATA[Sheet Metal Fittings]]></categoryname>
+	</node>
+	<node>
+		<categoryname><![CDATA[Return Air Box]]></categoryname>
+	</node>
+	<node>
+		<categoryname><![CDATA[Volume Control Blades]]></categoryname>
+	</node>
+	<node>
+		<categoryname><![CDATA[Uni-Strut]]></categoryname>
+	</node>
+	<node>
+		<categoryname><![CDATA[Others/Miscellaneous Items]]></categoryname>
+	</node>
+	<node>
+		<categoryname><![CDATA[Fire Dampers]]></categoryname>
+	</node>
+	<node>
+		<categoryname><![CDATA[AIRCONDITIONING UNITS]]></categoryname>
+	</node>
+</data>

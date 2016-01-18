@@ -1,0 +1,247 @@
+/*
+Theme Name: BigBoom
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+body {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+.main-navigation .menu > li.menu-item-has-children > a:after {
+  margin-right: 10px;
+}
+.main-navigation .menu > li.menu-item-has-children .menu-item-has-children > a:after {
+  display: none;
+}
+.main-navigation .menu .sub-menu li a {
+  padding: 10px 25px 10px 10px;
+}
+.main-navigation .menu .sub-menu li a:before {
+  right: 10px;
+  left: inherit;
+}
+.main-navigation .menu .sub-menu li a:hover {
+  padding-left: 0;
+  padding-right: 30px;
+}
+.main-navigation .menu .mega-menu-container .sub-menu li a {
+  padding: 10px 0 10px 10px;
+}
+.topbar-sidebar li:first-child:before {
+  display: block;
+}
+.topbar-sidebar li:last-child:before {
+  display: none;
+}
+.wpb_content_element .widget_nav_menu .widgettitle:after {
+  float: left;
+}
+.menu a i {
+  margin-left: 10px;
+  margin-right: 0;
+}
+.menu .mega-sub-menu li:before {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.menu ul.sub-menu li a:hover {
+  padding-left: 0;
+  padding-right: 30px;
+}
+.menu .mega-menu-container ul.sub-menu li a:hover {
+  padding-left: 0;
+  padding-right: 10px;
+}
+.widget_nav_menu li.menu-item-has-children > a:after {
+  display: none;
+}
+.widget_nav_menu:first-child .widget-title:after {
+  padding-left: 15px;
+}
+.menu ul.sub-menu li a {
+  padding-left: 0;
+  padding-right: 25px;
+}
+.menu ul.sub-menu li a:before {
+  right: 10px;
+  left: inherit;
+}
+.owl-carousel .owl-item {
+  float: right;
+}
+.ta-product-search-widget .search-submit {
+  float: left;
+}
+.ta-product-search-widget select {
+  padding: 0 15px 0 0;
+}
+.ta-product-search-widget .search-field {
+  border-right: 1px solid #eee;
+  border-left: 0;
+}
+.ta-mini-cart-widget .widget_shopping_cart_content img {
+  float: left;
+}
+.ta-mini-cart-widget .widget_shopping_cart_content .buttons a.checkout {
+  float: left;
+}
+.ta-mini-cart-widget .widget_shopping_cart_content .total .amount {
+  float: left;
+}
+.social-icons {
+  left: -120px;
+  right: inherit;
+}
+.social-icons a:hover {
+  margin-right: -120px;
+  margin-left: 0;
+}
+.products-carousel .owl-controls .owl-buttons .owl-next,
+.bb-posts-owl-carousel .owl-controls .owl-buttons .owl-next,
+.bb-images-owl-carousel .owl-controls .owl-buttons .owl-next,
+.products-carousel-3 .owl-controls .owl-buttons .owl-next {
+  left: 32px;
+  right: inherit;
+}
+.products-carousel .owl-controls .owl-buttons .owl-prev,
+.bb-posts-owl-carousel .owl-controls .owl-buttons .owl-prev,
+.bb-images-owl-carousel .owl-controls .owl-buttons .owl-prev,
+.products-carousel-3 .owl-controls .owl-buttons .owl-prev {
+  left: 0;
+  right: inherit;
+}
+.woocommerce ul.products li.product .button i {
+  padding-right: 0;
+  padding-left: 7px;
+}
+.woocommerce ul.products li.product .sale-price-date .box {
+  padding-left: 10px;
+}
+.woocommerce ul.products li.product .sale-price-date .box span {
+  padding-right: 0;
+}
+.woocommerce ul.products li.product .added_to_cart.wc-forward:before {
+  float: right;
+  padding-left: 5px;
+}
+.woocommerce .woocommerce-product-rating .star-rating {
+  float: right;
+}
+.woocommerce .product .summary .woocommerce-review-link {
+  padding-right: 8px;
+  padding-left: 0;
+}
+.woocommerce .star-rating {
+  float: left;
+}
+.woocommerce .cart-collaterals .cart_totals table th {
+  text-align: left;
+}
+.woocommerce .cart-collaterals .cart_totals table td {
+  padding-right: 20px;
+  padding-left: 0;
+}
+.bb-post .post-text .read-more i,
+.icon-box .icon-read-more .fa {
+  margin-left: 0;
+  margin-right: 5px;
+  padding-left: 0;
+  padding-right: 1px;
+}
+.footer-sidebar li:before {
+  display: none;
+}
+.footer-sidebar li:after {
+  content: "\f0d9";
+  margin-left: 10px;
+  color: #bababa;
+  font-family: FontAwesome;
+  font-size: 12px;
+  line-height: 1;
+}
+.footer-menu li {
+  border-right: none;
+  border-left: 1px solid #444;
+}
+.footer-menu li:first-child {
+  padding-left: 10px;
+  padding-right: 0;
+}
+.footer-menu li:last-child {
+  padding-right: 10px;
+}
+.shop-toolbar .shop-view a:before {
+  float: left;
+}
+.icon-box.icon-box-address .b-icon {
+  float: right;
+  margin-left: 10px;
+  margin-right: 0;
+}
+.entry-header .entry-author,
+.entry-header .entry-date,
+.entry-header .entry-comments {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+.entry-header .entry-author i,
+.entry-header .entry-date i,
+.entry-header .entry-comments i {
+  margin-right: 0;
+  margin-left: 4px;
+}
+.entry-header .tags-links {
+  clear: both;
+}
+.comments-area .comment-list .comment-author {
+  float: right;
+}
+.comments-area .comment-list .comment-meta .comment-reply-link,
+.comments-area .comment-list .comment-meta .comment-edit-link {
+  float: left;
+  margin-right: 20px;
+}
+.comments-area .comment-list .comment-author {
+  padding-right: 0;
+  padding-left: 15px;
+}
+.comments-area .comment-list .comment-meta {
+  padding-left: 0;
+  padding-right: 80px;
+}
+.comments-area .comment-list .comment .children article {
+  padding-left: 0;
+  padding-right: 60px;
+}
+.comments-area .comment-list .comment .children .children article {
+  padding-left: 0;
+  padding-right: 120px;
+}
+.comments-area .comment-list .comment .children .children .children article {
+  padding-left: 0;
+  padding-right: 180px;
+}
+.search-form:before,
+.search-form .search-submit {
+  left: 0;
+  right: inherit;
+  top: 12px;
+}
+.woocommerce table.shop_table td.actions .coupon label,
+.woocommerce-cart table.cart td.actions .coupon .input-text,
+.woocommerce table.shop_table td.actions .coupon .button {
+  float: right;
+}
+.woocommerce table.shop_table td.actions .button {
+  float: left;
+}
+.woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout .checkout-button {
+  float: left;
+  margin-left: 10px;
+}

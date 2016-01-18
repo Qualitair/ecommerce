@@ -1,0 +1,72 @@
+.duap-logo {
+	margin-top: 10px;
+}
+
+.duap-logo img {
+	width: 20%;
+}
+
+.duap-api-form-table input[type=text] {
+	width: 50%;
+}
+
+.btn-ajax-sync.product {
+	background: #52A154 !important;
+	border-color: #4E9450 !important;
+	color: #fff !important;
+	font-weight: normal;
+}
+
+.btn-ajax-sync.stock {
+	background: orange !important;
+	border-color: darkorange !important;
+	color: #333 !important;
+	font-weight: normal;
+}
+
+.btn-ajax-sync.product.loading  span {
+	padding-left: 25px;
+}
+
+.btn-ajax-sync.stock.loading  span {
+	padding-left: 25px;
+}
+
+.btn-ajax-sync.product i,
+.btn-ajax-sync.stock i {
+	position: relative;
+	top: 2px;
+}
+
+.duap-on-button-loader {
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	margin-top: 2px;
+	margin-left: -2px;
+}
+
+.duap-ajax-result-section {
+	position: relative;
+	width: 100%;
+	display: block;
+}
+
+.duap-ajax-result-section b {
+	font-size: 17px;
+}
+
+.duap-ajax-result-section .counter {
+	font-size: 20px;
+	color: darkcyan;
+}
+
+.duap-result-content .prepare.done {
+	color: green;
+	font-weight: bold;
+}
+
+.duap-ajax-result-section .empty {
+	font-weight: bold;
+	color: darkorange;
+}

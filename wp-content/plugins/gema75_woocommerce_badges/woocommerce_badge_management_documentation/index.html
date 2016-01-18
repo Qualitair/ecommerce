@@ -1,0 +1,295 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Woocommerce Products Badge Management - Define a badge for your Woocommerce Store</title>
+	
+	<meta name="description" content="woocommerce product badge - Define a badge for your products">
+	<meta name="author" content="Gema75">
+	<meta name="copyright" content="Gema75">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2014-02-04T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+		#documenter_sidebar #documenter_logo {background-image: url(assets/images/logo.png);
+		
+	</style>
+	
+</head>
+<body class="documenter-project-woocommerce-product-badge">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>		
+			<li><a href="#installing_the_plugin" title="Installing the plugin">Installing the plugin</a></li>
+			<li><a href="#using_the_plugin" title="Using the plugin">Using the plugin</a></li>
+			<li><a href="#createbadge" title="Creating Badge">Creating Badge</a></li>
+			<li><a href="#createbadgetext" title="Creating Badge">Creating Text Badge</a></li>
+			<li><a href="#createbadgeimg" title="Creating Badge">Creating Preset Image Badge</a></li>
+			<li><a href="#createbadgecustom" title="Creating Badge">Creating Custom Image Badge</a></li>
+			<li><a href="#assingbadgecategory" title="Assign Badge to Category ">Assign Badge to Category </a></li>
+			<li><a href="#assingbadgesingle" title="Assign Badge to single Product">Assign Badge to single Product</a></li>
+			<li><a href="#settings" title="Information Badge Rules">Display Settings </a></li>
+			<li><a href="#frontpage" title="Information Badge Rules">Frontpage View </a></li>
+			<li><a href="#rules" title="Information Badge Rules">Information Badge Rules</a></li>
+			<li><a href="#special" title="Special">Special Cases</a></li>
+			<li><a href="#support" title="Support">Support & Updates</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Gema75 2014<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Woocommerce Products Badge Management - version 3.7</h1></br>
+	<h2>Define a Badge for your WooCommerce Store:</h2>
+	<h4>Single Product, Single Category Product , Multi Categories , All The Store and many other Options.</h4>
+	<h2>Select to display the Badge to catalog view , single product view , or both of them :</h2>
+	<img src="assets/images/logobig.jpg">
+	
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>Live Link : <a href="http://gema75.com/Badges/"> Click Here</a></li>
+	<li>created: 03/01/2014</li>
+	<li>latest update: 05/10/2014</li>
+	<li>by: Gema75</li>
+	<li><a href=""></a></li>
+	<li>email: <a href="mailto:&#103;&#101;&#109;&#97;&#55;&#53;&#64;&#103;&#101;&#109;&#97;&#55;&#53;&#46;&#99;&#111;&#109;">&#103;&#101;&#109;&#97;&#55;&#53;&#64;&#103;&#101;&#109;&#97;&#55;&#53;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>Thank you for purchasing the plugin.</p>
+	<p>Should you have any questions, leave a comment on the comment section of the plugin or write me directly to gema75@gema75.com</p>
+	</section>
+	
+
+<section id="installing_the_plugin">
+	<div class="page-header"><h3>Installing the plugin</h3><hr class="notop"></div>
+<p>
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); line-height: 18px;">Installing via Wordpress admin&nbsp;</span></p>
+<p>
+	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; line-height: 18px;">After you have purchased the plugin go to wordpress administration area then on PLUGINS , ADD NEW , UPLOAD and browse to &nbsp;the zip file you downloaded &nbsp;and click INSTALL</span></p>
+<p>
+	<p><img src="assets/images/install.png"></p>
+	</p>
+<p>
+	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">Activate &#39;WooCommerce Product Badges&#39; through the &#39;Plugins&#39; menu in WordPress</span></p>
+</section>
+<section id="using_the_plugin">
+	<div class="page-header"><h3>Using the plugin</h3><hr class="notop"></div>
+<p>
+	Once installed go to the administration area and click on BADGES ;</p>
+<p>
+	<p><img src="assets/images/wcbadge.png"></p></p>
+</section>
+<section id="createbadge">
+	<div class="page-header"><h3>Creating Badge</h3><hr class="notop"></div>
+	<p>Create New Badge </p>
+<p><img src="assets/images/newbg.png"></p></br>
+
+<p><strong>Add a Title to recognise it for the future use .</strong><p>
+<p><img src="assets/images/title.png"></p></br>
+
+<h2>General Settings for all Badge Types </h2>
+<strong>NEWER THAN - Badge Life </strong>: the product added not more than X days ago on the woocommerce will have the badge. &nbsp;</p>
+	<p style="color:red;font-size:16px"><strong>Info :If badge is not time related , leave empty. </strong></p>
+	<img src="assets/images/bgtime.png">
+<p>
+	<strong>POSITION</strong>&nbsp;: the position of the badge. you can also set the position by dragging the badge on the &quot;quick preview&quot;</p>
+<p> <img src="assets/images/position.png"></p>
+<p>
+	On the right we see the &quot;Quick preview&quot; that shows in real time the changes done . You can easily place the badge by dragging it with the mouse&nbsp;</p>
+<strong>Important</strong>
+<p>The badge  it is using position absolute ,  and for all the themes which are  in responsive design  it is recommended the position  Top Left , so the badge will be responsive together with the product image . In case that the product image dimensions  doesn't not change  in responsive design , the badge can be positioned where ever you desire.</p>
+
+</section>
+<section id="createbadgetext">
+<div class="page-header"><h3>Create the Text Badge </h3><hr class="notop"></div>
+<p>
+	<strong>TEXT COLOR </strong>: you can select the text color of the badge via a color picker</p>
+<p>
+	<strong>BACKGROUND COLOR :&nbsp;</strong>&nbsp;you can select the background color of the badge via a color picker</p>
+<p>
+	<strong>BADGE TEXT </strong>: you can set the text to be displayed on the badge</p>
+<p>	
+<p>
+	<strong>POSITION</strong>&nbsp;: the position of the badge. you can also set the position by dragging the badge on the &quot;quick preview&quot;</p>
+<p>
+	<strong>PADDING</strong>&nbsp;: the padding of the badge</p>
+<p>
+	<strong>RADIUS</strong> : if you like to have rounded corners set the values here</p>
+<p>
+	<strong>BADGE OPACITY</strong> : set the opacity of the badge , 0 is full transparent ( the badge will not be visible ) , 1 is fully visible&nbsp;</p>
+<p>
+	<p><img src="assets/images/textbadge.png" ></p></p>
+<p>
+</section>
+
+<section id="createbadgeimg">
+<div class="page-header"><h3>Creating Preset Image Badge</h3><hr class="notop"></div>
+	<h5>Create the image badge </h5>
+	<p>You can create Badge  using the present Preset images or with a custom image which you can upload and use as Badge</p>
+	<p><img src="assets/images/badgeimg.png"></p>
+
+<p>
+</section>
+<section id="createbadgecustom">
+<div class="page-header"><h3>Creating Custom Image Badge</h3><hr class="notop"></div>
+<p>You can create Badge  using the your custom images  which you can upload and use as Badge</p>
+<p><img src="assets/images/custombg.png"></p>
+</section>
+<section id="assingbadgecategory">
+	<div class="page-header"><h3>Assign Badge To Category </h3><hr class="notop"></div>
+<p>Once created the badge , it can be assigned to an existing product category . </p>
+<p>Select the desired categories product to assign the badge created .</p>
+
+<p><img src="assets/images/selcat.png"></p>
+
+<p>The badge will appear to all the products of the selected category. </p>
+<p><img src="assets/images/catbag.png"></p>
+ <p>Here live link in frontpage  for the: <a href="http://gema75.com/Badges/product-category/bags/"> Badge assigned to a category preset - image used </a></p>
+
+<p>Here live link in frontpage  for the: <a href="http://gema75.com/Badges/product-category/dress/"> Badge assigned to a category custom Badge image used </a></p>
+
+
+</section>
+<section id="assingbadgesingle">
+	<div class="page-header"><h3>Assign Badge To Single Product</h3><hr class="notop"></div>
+<p>
+	To assing a Badge to a single product  ,  You need to edit the single product  and assing the Badge from the List .</p>
+	<p><img src="assets/images/singlebgproduct.png"style="width:85%;"></p>
+	<p>Once done Update Product</p>
+	<p>Here is how it might look on the frontpage   the single products  with his own Badge :
+	<img src="assets/images/singleproducts.png"></p>
+<p>Here live link in frontpage  for the: <a href="http://gema75.com/Badges/product-category/shoes/"> Badge assigned to a single product </a>with :
+Text Badge , Preset Image Badge , Custom Uploaded Image </p>	
+	
+</section>
+<section id="settings">
+	<div class="page-header"><h3>Display Settings </h3><hr class="notop"></div>
+<p>Define  where to display the badge - Selecting "Yes" or "No" to display  the badge to  catalog view  and/or single product view </p>
+<img src="assets/images/settings.png"></p>
+<strong>Important</strong>
+<p>The badge  it is using position absolute  , and in case that  will be selected to  display it  in catalog view and also in single product  view  it is recommended the position  "Top Left" , so the badge will be responsive together with the product image .  In case that the product image have the same  dimensions  in catalog and single product view ,  the badge can be positioned where ever you desire.</p>
+
+<p><strong>Catalog view - Badge activated </strong></p>
+<p><img src="assets/images/catalogview.png"></p>
+<p><strong>Single product view - Badge activated </strong></p>
+<p><img src="assets/images/singleview.png"></p>
+</section>
+<section id="frontpage">
+	<div class="page-header"><h3>Frontpage View - Badge Types </h3><hr class="notop"></div>
+Once happy with the changes , click the button &nbsp;&quot;Publish &quot;.&nbsp; and doing this the badge has been created .</p>
+<p>
+	Done that , here is how it might look on the frontpage&nbsp;</p>
+    <p><img src="assets/images/bgtxt.png" style="height: 250px;"></br><strong>Product with text badge </strong></p></br><p><img src="assets/images/bgpreset.png"style="height: 250px;"></br><strong>Product with preset image badge </strong></p></br><p><img src="assets/images/bgcustomimg.png"style="height: 250px;"></br><strong>Product with custom Uploaded image badge </strong></p> 
+</section>
+<section id="rules">
+	<div class="page-header"><h3>Information Badge Rules </h3><hr class="notop"></div>
+<p>
+
+<h4>Sample 1 </h4>
+<p>Badge with all the categories  Selected  - Time Limit 7 days .</p>
+<p>This Badge <strong>overwrites </strong>all the  existing  Badges for the products of 7 days old.</p>
+<p>Once the Badge  expired  will be displayed the other active badges .</p></br>
+<p><img src="assets/images/allcatbadge.png"></p>
+</br>
+<h4>Sample 2 </h4>
+<p>Own product Badge Time Limit -   <strong>empty = never expire</strong></p>
+<p>Product with Own badge  older than 7 days  will displayes  his Own Badge .</p>
+<p><strong>NO CATEGORY SELECTED</strong></p>
+<p>Own product Badge <strong> overwrites </strong>the Category Badge .</p></br>
+<p><img src="assets/images/ownbadge.png"></p></br>
+<h4>Sample 3 </h4>
+<p>Category Badge - Time Limit - <strong>empty = never expire</strong></p>
+<p>All the Products of the selected category/categories  which doesn't have an own badge .</p>
+<p>and are older than 7 days it displays the category badge.</p></br>
+<p><img src="assets/images/badgecategory.png"></p></br>
+	</p>
+</section>
+<section id="special">
+	<div class="page-header"><h3>Special Cases</h3><hr class="notop"></div>
+<p>First Be sure  that you have removed the day limit for the badge . </p>
+
+If the Badge Day limit called "Newer Than "  it is empty or 0  and the badge still doesn't appear than  the case it is a little complicated but explained  below how to solve . </p>
+	
+<p>In same Cases the Badge doesn't Appear  to a website .</p>
+<p>This happen because the theme used  have custom  woocommerce files .</p>
+<p>In those files the original hooks of the woocommerce plugin  are not used .</p>
+<p>As the Badge Plugin it is using one of those hooks  which  in your theme woo theme files may be it is missing .</p>
+
+<p>Exist a way to fix it by adding a shortcode  to the  woo theme files  .</p>
+
+<p>The shortcode to be added it is the below :</p>
+
+<p>&lt;?php gema75_show_product_loop_new_badge  (); ?&gt; </p>
+
+<p>You Need to identify the file  which display the products  and add this line  before the title  code .</p>
+
+
+</section>
+<section id="support">
+	<div class="page-header"><h3>Support and Updates</h3><hr class="notop"></div>
+<p>
+	The plugin is self explanatory but should you require help or support let me know via the plugin`s comment section on the Codecanyon area, or write me directly to gema75@gema75.com</p>
+	
+	<p>Update the Badge plugin to the last version downloaded from <a href="http://codecanyon.net/item/woocommerce-products-badge-management/6770699">http://codecanyon.net/item/woocommerce-products-badge-management/6770699 </a>  code using the ftp client and replacing the files in the plugin folder. </p>
+</section>
+
+	</div>
+</body>
+</html>

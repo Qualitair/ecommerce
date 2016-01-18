@@ -1,0 +1,2239 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BigBoom v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-04-11 18:51:29+0000\n"
+"Last-Translator: admin <admin@local.host>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:15
+#@ bigboom
+msgid "404"
+msgstr ""
+
+#: 404.php:19
+#@ bigboom
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:20
+#@ bigboom
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: comments.php:25
+#: inc/widgets/tabs.php:36
+#@ bigboom
+msgid "Comments"
+msgstr ""
+
+#: comments.php:30
+#@ bigboom
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:31
+#@ bigboom
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:32
+#@ bigboom
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:54
+#@ bigboom
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:59
+#@ bigboom
+msgid "Leave A Comment"
+msgstr ""
+
+#: comments.php:60
+#@ bigboom
+msgid "Submit"
+msgstr ""
+
+#: functions.php:58
+#@ bigboom
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:59
+#@ bigboom
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:106
+#@ bigboom
+msgid "Topbar Left"
+msgstr ""
+
+#: functions.php:115
+#@ bigboom
+msgid "Topbar Right"
+msgstr ""
+
+#: functions.php:125
+#@ bigboom
+msgid "Header Right"
+msgstr ""
+
+#: functions.php:135
+#@ bigboom
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:145
+#@ bigboom
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:155
+#@ bigboom
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:165
+#: inc/backend/theme-options.php:53
+#: inc/frontend/footer.php:55
+#@ bigboom
+msgid "Footer"
+msgstr ""
+
+#: header.php:60
+#@ bigboom
+msgid "Menu"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:15
+#@ bigboom
+msgid "Format Details"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:22
+#@ bigboom
+msgid "Image"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:29
+#@ bigboom
+msgid "Gallery"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:35
+#@ bigboom
+msgid "Audio"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:43
+#@ bigboom
+msgid "Video"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:51
+#: inc/backend/visual-composer.php:745
+#@ bigboom
+msgid "Link"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:59
+#@ bigboom
+msgid "Text"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:67
+#@ bigboom
+msgid "Quote"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:75
+#@ bigboom
+msgid "Author"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:83
+#@ bigboom
+msgid "URL"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:91
+#: inc/libs/class-tgm-plugin-activation.php:1377
+#@ bigboom
+#@ tgmpa
+msgid "Status"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:104
+#@ bigboom
+msgid "Display Settings"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:110
+#: inc/backend/visual-composer.php:146
+#: inc/backend/visual-composer.php:190
+#: inc/backend/visual-composer.php:248
+#: inc/backend/visual-composer.php:284
+#: inc/backend/visual-composer.php:352
+#: inc/backend/visual-composer.php:388
+#: inc/backend/visual-composer.php:446
+#: inc/backend/visual-composer.php:473
+#: inc/backend/visual-composer.php:509
+#: inc/backend/visual-composer.php:591
+#: inc/backend/visual-composer.php:617
+#: inc/backend/visual-composer.php:716
+#: inc/widgets/mini-cart.php:87
+#: inc/widgets/product-search.php:89
+#: inc/widgets/recent-posts.php:164
+#: inc/widgets/tabs.php:250
+#: inc/widgets/tabs.php:299
+#: inc/widgets/tabs.php:348
+#@ bigboom
+msgid "Title"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:115
+#@ bigboom
+msgid "Hide the Title"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:121
+#@ bigboom
+msgid "Layout & Styles"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:126
+#@ bigboom
+msgid "Custom Layout"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:132
+#: inc/backend/theme-options.php:33
+#@ bigboom
+msgid "Layout"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:143
+#@ bigboom
+msgid "Custom Css"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:149
+#@ bigboom
+msgid "Custom JavaScript"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:159
+#: inc/backend/theme-options.php:25
+#@ bigboom
+msgid "General"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:166
+#@ bigboom
+msgid "Star Rating"
+msgstr ""
+
+#: inc/backend/nav-menus.php:47
+#: inc/backend/visual-composer.php:699
+#@ bigboom
+msgid "Icon"
+msgstr ""
+
+#: inc/backend/nav-menus.php:48
+#@ bigboom
+msgid "Mega Menu"
+msgstr ""
+
+#: inc/backend/nav-menus.php:49
+#@ bigboom
+msgid "Mega Menu Width"
+msgstr ""
+
+#: inc/backend/nav-menus.php:50
+#@ bigboom
+msgid "Column Width"
+msgstr ""
+
+#: inc/backend/nav-menus.php:51
+#: inc/backend/theme-options.php:143
+#: inc/backend/visual-composer.php:128
+#: inc/backend/visual-composer.php:243
+#: inc/backend/visual-composer.php:334
+#: inc/backend/visual-composer.php:441
+#: inc/backend/visual-composer.php:504
+#: inc/backend/visual-composer.php:586
+#: inc/backend/visual-composer.php:693
+#: inc/backend/visual-composer.php:730
+#@ bigboom
+msgid "Content"
+msgstr ""
+
+#: inc/backend/nav-menus.php:121
+#: inc/backend/nav-menus.php:178
+#@ bigboom
+msgid "optional"
+msgstr ""
+
+#: inc/backend/nav-menus.php:147
+#@ bigboom
+msgid "Select Icon"
+msgstr ""
+
+#: inc/backend/nav-menus.php:149
+#@ bigboom
+msgid "Quick search"
+msgstr ""
+
+#: inc/backend/nav-menus.php:184
+#@ bigboom
+msgid "HTML and Shortcodes are allowed"
+msgstr ""
+
+#: inc/backend/plugins.php:77
+#: inc/libs/class-tgm-plugin-activation.php:161
+#@ bigboom
+#@ tgmpa
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/backend/plugins.php:78
+#: inc/libs/class-tgm-plugin-activation.php:162
+#@ bigboom
+#@ tgmpa
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/backend/plugins.php:79
+#: inc/libs/class-tgm-plugin-activation.php:163
+#, php-format
+#@ bigboom
+#@ tgmpa
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/backend/plugins.php:80
+#@ bigboom
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/backend/plugins.php:81
+#: inc/libs/class-tgm-plugin-activation.php:165
+#, php-format
+#@ bigboom
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/plugins.php:82
+#: inc/libs/class-tgm-plugin-activation.php:166
+#, php-format
+#@ bigboom
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/plugins.php:83
+#: inc/libs/class-tgm-plugin-activation.php:167
+#, php-format
+#@ bigboom
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/plugins.php:84
+#: inc/libs/class-tgm-plugin-activation.php:168
+#, php-format
+#@ bigboom
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/plugins.php:85
+#: inc/libs/class-tgm-plugin-activation.php:169
+#, php-format
+#@ bigboom
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/plugins.php:86
+#: inc/libs/class-tgm-plugin-activation.php:170
+#, php-format
+#@ bigboom
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/plugins.php:87
+#: inc/libs/class-tgm-plugin-activation.php:171
+#, php-format
+#@ bigboom
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/plugins.php:88
+#: inc/libs/class-tgm-plugin-activation.php:172
+#, php-format
+#@ bigboom
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/plugins.php:89
+#: inc/libs/class-tgm-plugin-activation.php:173
+#@ bigboom
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/plugins.php:90
+#@ bigboom
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/plugins.php:91
+#: inc/libs/class-tgm-plugin-activation.php:175
+#@ bigboom
+#@ tgmpa
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/backend/plugins.php:92
+#: inc/libs/class-tgm-plugin-activation.php:177
+#: inc/libs/class-tgm-plugin-activation.php:1939
+#@ bigboom
+#@ tgmpa
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/backend/plugins.php:93
+#, php-format
+#@ bigboom
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/backend/theme-options.php:29
+#: inc/backend/theme-options.php:116
+#@ bigboom
+msgid "Promotion"
+msgstr ""
+
+#: inc/backend/theme-options.php:37
+#: inc/libs/theme-options/inc/class-fields.php:646
+#: inc/libs/theme-options/inc/class-fields.php:650
+#@ bigboom
+msgid "Style"
+msgstr ""
+
+#: inc/backend/theme-options.php:41
+#@ bigboom
+msgid "Header"
+msgstr ""
+
+#: inc/backend/theme-options.php:45
+#@ bigboom
+msgid "Blog"
+msgstr ""
+
+#: inc/backend/theme-options.php:49
+#@ bigboom
+msgid "Shop"
+msgstr ""
+
+#: inc/backend/theme-options.php:57
+#@ bigboom
+msgid "Backup - Restore"
+msgstr ""
+
+#: inc/backend/theme-options.php:66
+#@ bigboom
+msgid "Favicon"
+msgstr ""
+
+#: inc/backend/theme-options.php:71
+#@ bigboom
+msgid "Home Screen Icons"
+msgstr ""
+
+#: inc/backend/theme-options.php:72
+#@ bigboom
+msgid "Select image file that will be displayed on home screen of handheld devices."
+msgstr ""
+
+#: inc/backend/theme-options.php:78
+#@ bigboom
+msgid "IPad Retina (144x144px)"
+msgstr ""
+
+#: inc/backend/theme-options.php:83
+#@ bigboom
+msgid "IPad (72x72px)"
+msgstr ""
+
+#: inc/backend/theme-options.php:89
+#@ bigboom
+msgid "IPhone Retina (114x114px)"
+msgstr ""
+
+#: inc/backend/theme-options.php:95
+#@ bigboom
+msgid "IPhone (57x57px)"
+msgstr ""
+
+#: inc/backend/theme-options.php:101
+#@ bigboom
+msgid "AddThis Profile ID"
+msgstr ""
+
+#: inc/backend/theme-options.php:102
+#@ bigboom
+msgid "Please go <a href=\"https://www.addthis.com/settings/publisher\" target=\"_blank\">here</a> to get your Addthis Profile Id"
+msgstr ""
+
+#: inc/backend/theme-options.php:107
+#@ bigboom
+msgid "Socials"
+msgstr ""
+
+#: inc/backend/theme-options.php:109
+#@ bigboom
+msgid "Click to social icon to add link"
+msgstr ""
+
+#: inc/backend/theme-options.php:117
+#@ bigboom
+msgid "Display a promotion section at the top of site"
+msgstr ""
+
+#: inc/backend/theme-options.php:123
+#@ bigboom
+msgid "Display On Homepage Only"
+msgstr ""
+
+#: inc/backend/theme-options.php:124
+#@ bigboom
+msgid "Display the promotion section on the homepage only"
+msgstr ""
+
+#: inc/backend/theme-options.php:131
+#@ bigboom
+msgid "Background"
+msgstr ""
+
+#: inc/backend/theme-options.php:132
+#@ bigboom
+msgid "Setup background for promotion section"
+msgstr ""
+
+#: inc/backend/theme-options.php:144
+#@ bigboom
+msgid "Enter promotion content"
+msgstr ""
+
+#: inc/backend/theme-options.php:157
+#@ bigboom
+msgid "Default Layout"
+msgstr ""
+
+#: inc/backend/theme-options.php:158
+#@ bigboom
+msgid "Default sidebar position for whole site"
+msgstr ""
+
+#: inc/backend/theme-options.php:169
+#@ bigboom
+msgid "Shop Layout"
+msgstr ""
+
+#: inc/backend/theme-options.php:170
+#: inc/backend/theme-options.php:182
+#@ bigboom
+msgid "Default sidebar position for page"
+msgstr ""
+
+#: inc/backend/theme-options.php:181
+#@ bigboom
+msgid "Page Layout"
+msgstr ""
+
+#: inc/backend/theme-options.php:196
+#@ bigboom
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/backend/theme-options.php:197
+#@ bigboom
+msgid "Select color scheme for website"
+msgstr ""
+
+#: inc/backend/theme-options.php:215
+#@ bigboom
+msgid "Custom Color Scheme"
+msgstr ""
+
+#: inc/backend/theme-options.php:216
+#@ bigboom
+msgid "Enable custom color scheme to pick your own color scheme"
+msgstr ""
+
+#: inc/backend/theme-options.php:228
+#@ bigboom
+msgid "Custom Color"
+msgstr ""
+
+#: inc/backend/theme-options.php:237
+#@ bigboom
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/backend/theme-options.php:240
+#@ bigboom
+msgid "Enter your custom style rulers here"
+msgstr ""
+
+#: inc/backend/theme-options.php:247
+#@ bigboom
+msgid "Topbar"
+msgstr ""
+
+#: inc/backend/theme-options.php:248
+#@ bigboom
+msgid "Display topbar before site header"
+msgstr ""
+
+#: inc/backend/theme-options.php:257
+#@ bigboom
+msgid "Logo"
+msgstr ""
+
+#: inc/backend/theme-options.php:258
+#@ bigboom
+msgid "Select logo from media library or upload new one"
+msgstr ""
+
+#: inc/backend/theme-options.php:263
+#@ bigboom
+msgid "Logo Size (Optional)"
+msgstr ""
+
+#: inc/backend/theme-options.php:264
+#@ bigboom
+msgid "If the Retina Logo uploaded, please enter the size of the Standard Logo just upload above (not the Retina Logo)"
+msgstr ""
+
+#: inc/backend/theme-options.php:270
+#@ bigboom
+msgid "(Width)"
+msgstr ""
+
+#: inc/backend/theme-options.php:276
+#@ bigboom
+msgid "(Height)"
+msgstr ""
+
+#: inc/backend/theme-options.php:283
+#@ bigboom
+msgid "Logo Margin"
+msgstr ""
+
+#: inc/backend/theme-options.php:290
+#@ bigboom
+msgid "top"
+msgstr ""
+
+#: inc/backend/theme-options.php:297
+#@ bigboom
+msgid "right"
+msgstr ""
+
+#: inc/backend/theme-options.php:304
+#@ bigboom
+msgid "bottom"
+msgstr ""
+
+#: inc/backend/theme-options.php:311
+#@ bigboom
+msgid "left"
+msgstr ""
+
+#: inc/backend/theme-options.php:318
+#@ bigboom
+msgid "Header Script"
+msgstr ""
+
+#: inc/backend/theme-options.php:319
+#@ bigboom
+msgid "Enter your custom scripts here like Google Analytics script"
+msgstr ""
+
+#: inc/backend/theme-options.php:327
+#@ bigboom
+msgid "Show page comment"
+msgstr ""
+
+#: inc/backend/theme-options.php:336
+#@ bigboom
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/backend/theme-options.php:346
+#@ bigboom
+msgid "Product Newness"
+msgstr ""
+
+#: inc/backend/theme-options.php:349
+#@ bigboom
+msgid "Display the \"New\" badge for how many days?"
+msgstr ""
+
+#: inc/backend/theme-options.php:357
+#@ bigboom
+msgid "Enable Footer Ads"
+msgstr ""
+
+#: inc/backend/theme-options.php:358
+#@ bigboom
+msgid "Display an ads or any content you want before site footer"
+msgstr ""
+
+#: inc/backend/theme-options.php:364
+#@ bigboom
+msgid "Footer Ads"
+msgstr ""
+
+#: inc/backend/theme-options.php:365
+#: inc/backend/theme-options.php:398
+#: inc/backend/theme-options.php:406
+#@ bigboom
+msgid "Shortcodes are allowed"
+msgstr ""
+
+#: inc/backend/theme-options.php:373
+#@ bigboom
+msgid "Enable Footer Widget"
+msgstr ""
+
+#: inc/backend/theme-options.php:379
+#@ bigboom
+msgid "Footer Widget Columns"
+msgstr ""
+
+#: inc/backend/theme-options.php:380
+#@ bigboom
+msgid "How many sidebar you want to show on footer"
+msgstr ""
+
+#: inc/backend/theme-options.php:396
+#@ bigboom
+msgid "Footer Copyright"
+msgstr ""
+
+#: inc/backend/theme-options.php:397
+#@ bigboom
+msgid "Copyright text to display on left side of footer"
+msgstr ""
+
+#: inc/backend/theme-options.php:400
+#@ bigboom
+msgid "Copyright &copy; 2015"
+msgstr ""
+
+#: inc/backend/theme-options.php:404
+#@ bigboom
+msgid "Extra Information"
+msgstr ""
+
+#: inc/backend/theme-options.php:405
+#@ bigboom
+msgid "Provide more information to display on right side of footer"
+msgstr ""
+
+#: inc/backend/theme-options.php:411
+#@ bigboom
+msgid "Footer Scripts"
+msgstr ""
+
+#: inc/backend/theme-options.php:419
+#@ bigboom
+msgid "Backup Settings"
+msgstr ""
+
+#: inc/backend/theme-options.php:420
+#@ bigboom
+msgid "You can tranfer the saved options data between different installs by copying the text inside the text box. To import data from another install, replace the data in the text box with the one from another install and click \"Import Options\" button above"
+msgstr ""
+
+#: inc/backend/visual-composer.php:99
+#@ bigboom
+msgid "Set CSS id for this row"
+msgstr ""
+
+#: inc/backend/visual-composer.php:103
+#@ bigboom
+msgid "Full width content"
+msgstr ""
+
+#: inc/backend/visual-composer.php:105
+#@ bigboom
+msgid "Enable"
+msgstr ""
+
+#: inc/backend/visual-composer.php:106
+#@ bigboom
+msgid "Select it if you want your content to be displayed in full width of page"
+msgstr ""
+
+#: inc/backend/visual-composer.php:115
+#@ bigboom
+msgid "Responsiveness"
+msgstr ""
+
+#: inc/backend/visual-composer.php:117
+#@ bigboom
+msgid "Width & Responsiveness"
+msgstr ""
+
+#: inc/backend/visual-composer.php:118
+#@ bigboom
+msgid "Adjust column for different screen sizes. Control width, offset and visibility settings."
+msgstr ""
+
+#: inc/backend/visual-composer.php:125
+#@ bigboom
+msgid "Products Carousel"
+msgstr ""
+
+#: inc/backend/visual-composer.php:133
+#: inc/backend/visual-composer.php:339
+#@ bigboom
+msgid "Products"
+msgstr ""
+
+#: inc/backend/visual-composer.php:136
+#: inc/backend/visual-composer.php:342
+#: inc/widgets/tabs.php:28
+#@ bigboom
+msgid "Recent"
+msgstr ""
+
+#: inc/backend/visual-composer.php:137
+#: inc/backend/visual-composer.php:343
+#@ bigboom
+msgid "Featured"
+msgstr ""
+
+#: inc/backend/visual-composer.php:138
+#: inc/backend/visual-composer.php:344
+#@ bigboom
+msgid "Best Selling"
+msgstr ""
+
+#: inc/backend/visual-composer.php:139
+#: inc/backend/visual-composer.php:345
+#@ bigboom
+msgid "Top Rated"
+msgstr ""
+
+#: inc/backend/visual-composer.php:140
+#: inc/backend/visual-composer.php:346
+#@ bigboom
+msgid "Sale"
+msgstr ""
+
+#: inc/backend/visual-composer.php:153
+#: inc/backend/visual-composer.php:255
+#: inc/backend/visual-composer.php:359
+#@ bigboom
+msgid "Total Products"
+msgstr ""
+
+#: inc/backend/visual-composer.php:156
+#: inc/backend/visual-composer.php:258
+#: inc/backend/visual-composer.php:362
+#@ bigboom
+msgid "Set numbers of products to show."
+msgstr ""
+
+#: inc/backend/visual-composer.php:161
+#: inc/backend/visual-composer.php:271
+#: inc/backend/visual-composer.php:367
+#: inc/backend/visual-composer.php:453
+#@ bigboom
+msgid "Products per view"
+msgstr ""
+
+#: inc/backend/visual-composer.php:164
+#: inc/backend/visual-composer.php:274
+#: inc/backend/visual-composer.php:370
+#: inc/backend/visual-composer.php:456
+#@ bigboom
+msgid "Set numbers of products you want to display at the same time."
+msgstr ""
+
+#: inc/backend/visual-composer.php:169
+#: inc/backend/visual-composer.php:375
+#: inc/backend/visual-composer.php:461
+#@ bigboom
+msgid "Columns"
+msgstr ""
+
+#: inc/backend/visual-composer.php:172
+#: inc/backend/visual-composer.php:378
+#: inc/backend/visual-composer.php:464
+#@ bigboom
+msgid "Set numbers of columns you want to display."
+msgstr ""
+
+#: inc/backend/visual-composer.php:177
+#@ bigboom
+msgid "Spacing"
+msgstr ""
+
+#: inc/backend/visual-composer.php:180
+#@ bigboom
+msgid "Set spacing between columns."
+msgstr ""
+
+#: inc/backend/visual-composer.php:185
+#: inc/backend/visual-composer.php:279
+#: inc/backend/visual-composer.php:383
+#: inc/backend/visual-composer.php:469
+#: inc/backend/visual-composer.php:613
+#@ bigboom
+msgid "Order By"
+msgstr ""
+
+#: inc/backend/visual-composer.php:189
+#: inc/backend/visual-composer.php:283
+#: inc/backend/visual-composer.php:387
+#: inc/backend/visual-composer.php:472
+#: inc/backend/visual-composer.php:616
+#@ bigboom
+msgid "Date"
+msgstr ""
+
+#: inc/backend/visual-composer.php:191
+#: inc/backend/visual-composer.php:285
+#: inc/backend/visual-composer.php:389
+#: inc/backend/visual-composer.php:474
+#: inc/backend/visual-composer.php:619
+#@ bigboom
+msgid "Menu Order"
+msgstr ""
+
+#: inc/backend/visual-composer.php:192
+#: inc/backend/visual-composer.php:282
+#: inc/backend/visual-composer.php:390
+#: inc/backend/visual-composer.php:475
+#: inc/backend/visual-composer.php:620
+#@ bigboom
+msgid "Random"
+msgstr ""
+
+#: inc/backend/visual-composer.php:195
+#: inc/backend/visual-composer.php:287
+#: inc/backend/visual-composer.php:393
+#@ bigboom
+msgid "Select to order products. Leave empty to use the default order by of theme."
+msgstr ""
+
+#: inc/backend/visual-composer.php:201
+#: inc/backend/visual-composer.php:293
+#: inc/backend/visual-composer.php:399
+#: inc/backend/visual-composer.php:481
+#: inc/backend/visual-composer.php:626
+#@ bigboom
+msgid "Order"
+msgstr ""
+
+#: inc/backend/visual-composer.php:205
+#: inc/backend/visual-composer.php:297
+#: inc/backend/visual-composer.php:403
+#: inc/backend/visual-composer.php:485
+#: inc/backend/visual-composer.php:630
+#@ bigboom
+msgid "Ascending "
+msgstr ""
+
+#: inc/backend/visual-composer.php:206
+#: inc/backend/visual-composer.php:298
+#: inc/backend/visual-composer.php:404
+#: inc/backend/visual-composer.php:484
+#: inc/backend/visual-composer.php:629
+#@ bigboom
+msgid "Descending "
+msgstr ""
+
+#: inc/backend/visual-composer.php:209
+#: inc/backend/visual-composer.php:300
+#: inc/backend/visual-composer.php:407
+#@ bigboom
+msgid "Select to sort products. Leave empty to use the default sort of theme"
+msgstr ""
+
+#: inc/backend/visual-composer.php:214
+#: inc/backend/visual-composer.php:305
+#: inc/backend/visual-composer.php:412
+#: inc/backend/visual-composer.php:558
+#: inc/backend/visual-composer.php:665
+#@ bigboom
+msgid "Slider autoplay"
+msgstr ""
+
+#: inc/backend/visual-composer.php:216
+#: inc/backend/visual-composer.php:224
+#: inc/backend/visual-composer.php:307
+#: inc/backend/visual-composer.php:315
+#: inc/backend/visual-composer.php:414
+#: inc/backend/visual-composer.php:422
+#: inc/backend/visual-composer.php:560
+#: inc/backend/visual-composer.php:568
+#: inc/backend/visual-composer.php:645
+#: inc/backend/visual-composer.php:667
+#: inc/backend/visual-composer.php:675
+#@ bigboom
+msgid "Yes"
+msgstr ""
+
+#: inc/backend/visual-composer.php:217
+#: inc/backend/visual-composer.php:308
+#: inc/backend/visual-composer.php:415
+#: inc/backend/visual-composer.php:561
+#: inc/backend/visual-composer.php:668
+#@ bigboom
+msgid "Enables autoplay mode."
+msgstr ""
+
+#: inc/backend/visual-composer.php:222
+#: inc/backend/visual-composer.php:313
+#: inc/backend/visual-composer.php:420
+#: inc/backend/visual-composer.php:566
+#: inc/backend/visual-composer.php:673
+#@ bigboom
+msgid "Hide prev/next buttons"
+msgstr ""
+
+#: inc/backend/visual-composer.php:225
+#: inc/backend/visual-composer.php:316
+#: inc/backend/visual-composer.php:423
+#: inc/backend/visual-composer.php:569
+#: inc/backend/visual-composer.php:676
+#@ bigboom
+msgid "If \"YES\" prev/next control will be removed."
+msgstr ""
+
+#: inc/backend/visual-composer.php:230
+#: inc/backend/visual-composer.php:321
+#: inc/backend/visual-composer.php:428
+#: inc/backend/visual-composer.php:491
+#: inc/backend/visual-composer.php:574
+#: inc/backend/visual-composer.php:681
+#: inc/backend/visual-composer.php:753
+#@ bigboom
+msgid "Extra class name"
+msgstr ""
+
+#: inc/backend/visual-composer.php:233
+#: inc/backend/visual-composer.php:324
+#: inc/backend/visual-composer.php:431
+#: inc/backend/visual-composer.php:494
+#: inc/backend/visual-composer.php:576
+#: inc/backend/visual-composer.php:683
+#: inc/backend/visual-composer.php:756
+#@ bigboom
+msgid "If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: inc/backend/visual-composer.php:240
+#@ bigboom
+msgid "Products Carousel 2"
+msgstr ""
+
+#: inc/backend/visual-composer.php:263
+#: inc/backend/visual-composer.php:605
+#: inc/widgets/product-search.php:63
+#@ bigboom
+msgid "Categories"
+msgstr ""
+
+#: inc/backend/visual-composer.php:266
+#@ bigboom
+msgid "Select taxonomies categories."
+msgstr ""
+
+#: inc/backend/visual-composer.php:331
+#@ bigboom
+msgid "Products Carousel 3"
+msgstr ""
+
+#: inc/backend/visual-composer.php:438
+#@ bigboom
+msgid "Hot Deal Products"
+msgstr ""
+
+#: inc/backend/visual-composer.php:501
+#@ bigboom
+msgid "BigBoom Images Carousel"
+msgstr ""
+
+#: inc/backend/visual-composer.php:516
+#@ bigboom
+msgid "Images"
+msgstr ""
+
+#: inc/backend/visual-composer.php:519
+#@ bigboom
+msgid "Select images from media library"
+msgstr ""
+
+#: inc/backend/visual-composer.php:524
+#@ bigboom
+msgid "Image size"
+msgstr ""
+
+#: inc/backend/visual-composer.php:527
+#@ bigboom
+msgid "Select image size. Leave empty to use \"thumbnail\" size."
+msgstr ""
+
+#: inc/backend/visual-composer.php:532
+#@ bigboom
+msgid "Custom links"
+msgstr ""
+
+#: inc/backend/visual-composer.php:534
+#@ bigboom
+msgid "Enter links for each slide here. Divide links with linebreaks (Enter)."
+msgstr ""
+
+#: inc/backend/visual-composer.php:539
+#@ bigboom
+msgid "Custom link target"
+msgstr ""
+
+#: inc/backend/visual-composer.php:542
+#@ bigboom
+msgid "Same window"
+msgstr ""
+
+#: inc/backend/visual-composer.php:543
+#@ bigboom
+msgid "New window"
+msgstr ""
+
+#: inc/backend/visual-composer.php:545
+#@ bigboom
+msgid "Select where to open custom links."
+msgstr ""
+
+#: inc/backend/visual-composer.php:550
+#: inc/backend/visual-composer.php:657
+#@ bigboom
+msgid "Slides per view"
+msgstr ""
+
+#: inc/backend/visual-composer.php:553
+#: inc/backend/visual-composer.php:660
+#@ bigboom
+msgid "Set numbers of slides you want to display at the same time on slider's container for carousel mode."
+msgstr ""
+
+#: inc/backend/visual-composer.php:583
+#@ bigboom
+msgid "BigBoom Posts Carousel"
+msgstr ""
+
+#: inc/backend/visual-composer.php:598
+#@ bigboom
+msgid "Total Posts"
+msgstr ""
+
+#: inc/backend/visual-composer.php:608
+#@ bigboom
+msgid "Select posts categories."
+msgstr ""
+
+#: inc/backend/visual-composer.php:618
+#@ bigboom
+msgid "Modified"
+msgstr ""
+
+#: inc/backend/visual-composer.php:636
+#: inc/widgets/recent-posts.php:228
+#@ bigboom
+msgid "Excerpt Length (words)"
+msgstr ""
+
+#: inc/backend/visual-composer.php:643
+#@ bigboom
+msgid "Hide Readmore Text"
+msgstr ""
+
+#: inc/backend/visual-composer.php:650
+#: inc/backend/visual-composer.php:738
+#@ bigboom
+msgid "Readmore Text"
+msgstr ""
+
+#: inc/backend/visual-composer.php:652
+#: inc/widgets/recent-posts.php:29
+#@ bigboom
+msgid "Read More"
+msgstr ""
+
+#: inc/backend/visual-composer.php:690
+#@ bigboom
+msgid "Icon Box"
+msgstr ""
+
+#: inc/backend/visual-composer.php:706
+#@ bigboom
+msgid "Icon Position"
+msgstr ""
+
+#: inc/backend/visual-composer.php:709
+#: inc/libs/theme-options/inc/class-fields.php:719
+#@ bigboom
+msgid "Left"
+msgstr ""
+
+#: inc/backend/visual-composer.php:710
+#: inc/libs/theme-options/inc/class-fields.php:730
+#@ bigboom
+msgid "Top"
+msgstr ""
+
+#: inc/backend/visual-composer.php:723
+#@ bigboom
+msgid "SubTitle"
+msgstr ""
+
+#: inc/backend/visual-composer.php:733
+#@ bigboom
+msgid "Enter the content of this box"
+msgstr ""
+
+#: inc/backend/visual-composer.php:748
+#@ bigboom
+msgid "Enter URL if you want this title to have a link."
+msgstr ""
+
+#: inc/backend/visual-composer.php:773
+#@ bigboom
+msgid "Full Size"
+msgstr ""
+
+#: inc/backend/visual-composer.php:810
+#: inc/backend/visual-composer.php:826
+#@ bigboom
+msgid "All"
+msgstr ""
+
+#: inc/backend/visual-composer.php:864
+#: inc/libs/theme-options/inc/class-admin.php:124
+#@ bigboom
+msgid "Quick Search"
+msgstr ""
+
+#: inc/frontend/entry.php:76
+#: parts/content-page.php:25
+#@ bigboom
+msgid "Edit"
+msgstr ""
+
+#: inc/frontend/entry.php:80
+#@ bigboom
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/frontend/footer.php:127
+#@ bigboom
+msgid "Mail to us"
+msgstr ""
+
+#: inc/frontend/footer.php:130
+#, php-format
+#@ bigboom
+msgid "Follow via %s"
+msgstr ""
+
+#: inc/frontend/header.php:31
+#, php-format
+#@ bigboom
+msgid "Page %s"
+msgstr ""
+
+#: inc/frontend/woocommerce.php:148
+#: inc/widgets/mini-cart.php:61
+#@ bigboom
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/frontend/woocommerce.php:150
+#: inc/widgets/mini-cart.php:63
+#@ bigboom
+msgid "item(s)"
+msgstr ""
+
+#: inc/frontend/woocommerce.php:210
+#@ bigboom
+msgid "items"
+msgstr ""
+
+#: inc/frontend/woocommerce.php:218
+#@ bigboom
+msgid "View as"
+msgstr ""
+
+#: inc/frontend/woocommerce.php:219
+#@ bigboom
+msgid "Grid"
+msgstr ""
+
+#: inc/frontend/woocommerce.php:220
+#@ bigboom
+msgid "List"
+msgstr ""
+
+#: inc/frontend/woocommerce.php:224
+#@ bigboom
+msgid "Sort by"
+msgstr ""
+
+#: inc/frontend/woocommerce.php:230
+#@ bigboom
+msgid "Show"
+msgstr ""
+
+#: inc/frontend/woocommerce.php:331
+#: inc/functions/mega-menu-walker.php:143
+#@ bigboom
+msgid "Hot"
+msgstr ""
+
+#: inc/frontend/woocommerce.php:336
+#: inc/functions/mega-menu-walker.php:145
+#@ bigboom
+msgid "New"
+msgstr ""
+
+#: inc/frontend/woocommerce.php:367
+#@ bigboom
+msgid "Quick View"
+msgstr ""
+
+#: inc/frontend/woocommerce.php:417
+#@ woocommerce
+msgid "Placeholder"
+msgstr ""
+
+#: inc/frontend/woocommerce.php:532
+#@ bigboom
+msgid "View Detail"
+msgstr ""
+
+#: inc/frontend/woocommerce.php:542
+#, php-format
+#@ bigboom
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: inc/frontend/woocommerce.php:543
+#@ bigboom
+msgid "out of 5"
+msgstr ""
+
+#: inc/frontend/woocommerce.php:561
+#@ bigboom
+msgid "Days"
+msgstr ""
+
+#: inc/frontend/woocommerce.php:562
+#@ bigboom
+msgid "Hours"
+msgstr ""
+
+#: inc/frontend/woocommerce.php:563
+#@ bigboom
+msgid "Minutes"
+msgstr ""
+
+#: inc/frontend/woocommerce.php:578
+#@ bigboom
+msgid "Availability: "
+msgstr ""
+
+#: inc/functions/entry.php:27
+#, php-format
+#@ bigboom
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr ""
+
+#: inc/functions/entry.php:170
+#, php-format
+#@ bigboom
+msgid "Continue reading &quot;%s&quot;"
+msgstr ""
+
+#: inc/functions/nav.php:29
+#@ bigboom
+msgid "Previous"
+msgstr ""
+
+#: inc/functions/nav.php:30
+#@ bigboom
+msgid "Next"
+msgstr ""
+
+#: inc/functions/nav.php:51
+#, php-format
+#@ bigboom
+msgid "Results: %s - %s of %s"
+msgstr ""
+
+#: inc/functions/nav.php:77
+#@ bigboom
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/functions/nav.php:81
+#@ bigboom
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/functions/nav.php:108
+#, php-format
+#@ bigboom
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr ""
+
+#: inc/functions/nav.php:109
+#, php-format
+#@ bigboom
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:164
+#@ tgmpa
+msgid "Something went wrong."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:174
+#@ bigboom
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:176
+#@ tgmpa
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:179
+#, php-format
+#@ tgmpa
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:180
+#@ tgmpa
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:531
+#: inc/libs/class-tgm-plugin-activation.php:2156
+#@ tgmpa
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1166
+#@ tgmpa
+msgid "Private Repository"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1169
+#@ tgmpa
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1174
+#@ tgmpa
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1177
+#@ tgmpa
+msgid "Required"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1177
+#@ tgmpa
+msgid "Recommended"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1180
+#@ tgmpa
+msgid "Not Installed"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1182
+#@ tgmpa
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1287
+#: inc/libs/class-tgm-plugin-activation.php:1395
+#@ tgmpa
+msgid "Install"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1309
+#: inc/libs/class-tgm-plugin-activation.php:1396
+#@ tgmpa
+msgid "Activate"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1358
+#, php-format
+#@ tgmpa
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1374
+#@ tgmpa
+msgid "Plugin"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1375
+#@ tgmpa
+msgid "Source"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1376
+#@ tgmpa
+msgid "Type"
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: inc/libs/class-tgm-plugin-activation.php:1630
+#: inc/libs/class-tgm-plugin-activation.php:178
+#@ tgmpa
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1922
+#@ tgmpa
+msgid "Install package not available."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1923
+#, php-format
+#@ tgmpa
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1924
+#@ tgmpa
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1925
+#@ tgmpa
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1926
+#@ tgmpa
+msgid "Plugin install failed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1927
+#@ tgmpa
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1938
+#@ tgmpa
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2052
+#@ tgmpa
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2053
+#, php-format
+#@ tgmpa
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2053
+#: inc/libs/class-tgm-plugin-activation.php:2062
+#@ tgmpa
+msgid "Show Details"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2053
+#: inc/libs/class-tgm-plugin-activation.php:2062
+#@ tgmpa
+msgid "Hide Details"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2054
+#@ tgmpa
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2055
+#, php-format
+#@ tgmpa
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2059
+#@ tgmpa
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2060
+#, php-format
+#@ tgmpa
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2061
+#, php-format
+#@ tgmpa
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2062
+#, php-format
+#@ tgmpa
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2063
+#@ tgmpa
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2064
+#, php-format
+#@ tgmpa
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-admin.php:41
+#: inc/libs/theme-options/inc/class-admin.php:98
+#@ bigboom
+msgid "Theme Options"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-admin.php:70
+#@ bigboom
+msgid "This action can't be undo. Are you sure want to reset?"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-admin.php:71
+#@ bigboom
+msgid "All previous data will be overwritten and can't be undo. Are you sure want to import?"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-admin.php:72
+#@ bigboom
+msgid "Select Image"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-admin.php:73
+#@ bigboom
+msgid "Select Images"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-admin.php:92
+#@ bigboom
+msgid "Support"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-admin.php:94
+#@ bigboom
+msgid "Documentation"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-admin.php:101
+#@ bigboom
+msgid " by "
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-admin.php:127
+#@ bigboom
+msgid "Reset Options"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-admin.php:128
+#@ bigboom
+msgid "Save Changes"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:434
+#: inc/libs/theme-options/inc/class-fields.php:707
+#@ bigboom
+msgid "Upload Image"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:435
+#: inc/libs/theme-options/inc/class-fields.php:708
+#@ bigboom
+msgid "Remove Image"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:459
+#@ bigboom
+msgid "Upload Images"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:616
+#@ bigboom
+msgid "Select"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:619
+#@ bigboom
+msgid "Standard Fonts"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:625
+#@ bigboom
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:632
+#: inc/libs/theme-options/inc/class-fields.php:636
+#: inc/libs/theme-options/inc/class-fields.php:765
+#@ bigboom
+msgid "Size"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:639
+#@ bigboom
+msgid "Font Family"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:642
+#@ bigboom
+msgid "Family"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:654
+#: inc/libs/theme-options/inc/class-fields.php:657
+#: inc/libs/theme-options/inc/class-fields.php:776
+#@ bigboom
+msgid "Color"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:717
+#@ bigboom
+msgid "Horizontal Position"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:720
+#: inc/libs/theme-options/inc/class-fields.php:731
+#@ bigboom
+msgid "Center"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:721
+#@ bigboom
+msgid "Right"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:728
+#@ bigboom
+msgid "Vertical Position"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:732
+#@ bigboom
+msgid "Bottom"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:741
+#: inc/libs/theme-options/inc/class-fields.php:743
+#@ bigboom
+msgid "Repeat"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:744
+#@ bigboom
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:745
+#@ bigboom
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:746
+#@ bigboom
+msgid "No Repeat"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:753
+#@ bigboom
+msgid "Attachment"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:755
+#@ bigboom
+msgid "Scroll"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:756
+#@ bigboom
+msgid "Fixed"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:767
+#@ bigboom
+msgid "Normal"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:768
+#@ bigboom
+msgid "Contain"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:769
+#@ bigboom
+msgid "Cover"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:816
+#@ bigboom
+msgid "Facebook"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:817
+#@ bigboom
+msgid "Twitter"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:818
+#@ bigboom
+msgid "Google"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:819
+#@ bigboom
+msgid "Tumblr"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:820
+#@ bigboom
+msgid "Flickr"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:821
+#@ bigboom
+msgid "Vimeo"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:822
+#@ bigboom
+msgid "Youtube"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:823
+#@ bigboom
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:824
+#@ bigboom
+msgid "Pinterest"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:825
+#@ bigboom
+msgid "Dribbble"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:826
+#@ bigboom
+msgid "Behance"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:827
+#@ bigboom
+msgid "SoundCloud"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:828
+#@ bigboom
+msgid "Spotify"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:829
+#@ bigboom
+msgid "GitHub"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:830
+#@ bigboom
+msgid "Instagram"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:831
+#@ bigboom
+msgid "Sportify"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:832
+#@ bigboom
+msgid "Foursquare"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:833
+#@ bigboom
+msgid "Lastfm"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:834
+#@ bigboom
+msgid "Email"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:848
+#@ bigboom
+msgid "Remove"
+msgstr ""
+
+#: inc/libs/theme-options/inc/class-fields.php:1037
+#@ bigboom
+msgid "Import Opitons"
+msgstr ""
+
+#: inc/widgets/mini-cart.php:28
+#@ bigboom
+msgid "TA - Mini Cart"
+msgstr ""
+
+#: inc/widgets/mini-cart.php:31
+#@ bigboom
+msgid "Display minimal shoping cart"
+msgstr ""
+
+#: inc/widgets/product-search.php:28
+#@ bigboom
+msgid "TA - Product Search"
+msgstr ""
+
+#: inc/widgets/product-search.php:31
+#@ bigboom
+msgid "Display an advanced product search form with category selectable"
+msgstr ""
+
+#: inc/widgets/product-search.php:70
+#@ bigboom
+msgid "Search"
+msgstr ""
+
+#: inc/widgets/recent-comments.php:28
+#@ bigboom
+msgid "TA - Recent Comments"
+msgstr ""
+
+#: inc/widgets/recent-comments.php:31
+#@ bigboom
+msgid "Advanced recent comments widget."
+msgstr ""
+
+#: inc/widgets/recent-comments.php:65
+#: inc/widgets/tabs.php:340
+#@ bigboom
+msgid "Recent Comments"
+msgstr ""
+
+#. translators: comments widget: 1: comment author, 2: post link
+#: inc/widgets/recent-comments.php:103
+#, php-format
+#@ bigboom
+msgctxt "widgets"
+msgid "Posted by: %1$s"
+msgstr ""
+
+#: inc/widgets/recent-comments.php:144
+#@ bigboom
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/recent-comments.php:147
+#@ bigboom
+msgid "Number of comments to show:"
+msgstr ""
+
+#: inc/widgets/recent-comments.php:150
+#@ bigboom
+msgid "Content Length (words):"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:34
+#@ bigboom
+msgid "TA - Recent Posts"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:37
+#@ bigboom
+msgid "Advanced recent posts widget."
+msgstr ""
+
+#: inc/widgets/recent-posts.php:112
+#: inc/widgets/tabs.php:127
+#, php-format
+#@ bigboom
+msgid "%s Comments"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:171
+#: inc/widgets/tabs.php:256
+#: inc/widgets/tabs.php:305
+#@ bigboom
+msgid "Number Of Posts"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:175
+#@ bigboom
+msgid "Select Category: "
+msgstr ""
+
+#: inc/widgets/recent-posts.php:177
+#@ bigboom
+msgid "All Categories"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:194
+#: inc/widgets/tabs.php:271
+#: inc/widgets/tabs.php:320
+#@ bigboom
+msgid "Show Thumbnail"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:198
+#: inc/widgets/tabs.php:275
+#: inc/widgets/tabs.php:324
+#@ bigboom
+msgid "Show Thumbnail Left"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:201
+#: inc/widgets/tabs.php:280
+#: inc/widgets/tabs.php:329
+#@ bigboom
+msgid "Thumbnail Size"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:213
+#: inc/widgets/tabs.php:261
+#: inc/widgets/tabs.php:310
+#@ bigboom
+msgid "Show Date"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:218
+#: inc/widgets/tabs.php:266
+#: inc/widgets/tabs.php:315
+#@ bigboom
+msgid "Show Comment Number"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:223
+#@ bigboom
+msgid "Show Excerpt"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:233
+#@ bigboom
+msgid "Show Readmore Text"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:237
+#@ bigboom
+msgid "Readmore Text:"
+msgstr ""
+
+#: inc/widgets/tabs.php:20
+#@ bigboom
+msgid "Popular"
+msgstr ""
+
+#: inc/widgets/tabs.php:42
+#@ bigboom
+msgid "TA - Tabs"
+msgstr ""
+
+#: inc/widgets/tabs.php:45
+#@ bigboom
+msgid "Display most popular posts, recent posts, recent comments in tabbed widget."
+msgstr ""
+
+#: inc/widgets/tabs.php:120
+#, php-format
+#@ bigboom
+msgid "Permalink to %s"
+msgstr ""
+
+#: inc/widgets/tabs.php:181
+#@ bigboom
+msgid "by"
+msgstr ""
+
+#: inc/widgets/tabs.php:183
+#@ bigboom
+msgid "on"
+msgstr ""
+
+#: inc/widgets/tabs.php:242
+#@ bigboom
+msgid "Popular Posts"
+msgstr ""
+
+#: inc/widgets/tabs.php:246
+#@ bigboom
+msgid "Show Popular Tab"
+msgstr ""
+
+#: inc/widgets/tabs.php:291
+#@ bigboom
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/tabs.php:295
+#: inc/widgets/tabs.php:344
+#@ bigboom
+msgid "Show Recent Posts Tab"
+msgstr ""
+
+#: inc/widgets/tabs.php:354
+#@ bigboom
+msgid "Number of comments to show"
+msgstr ""
+
+#: parts/content-none.php:13
+#@ bigboom
+msgid "Nothing Found"
+msgstr ""
+
+#: parts/content-none.php:19
+#, php-format
+#@ bigboom
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: parts/content-none.php:23
+#@ bigboom
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: parts/content-none.php:28
+#@ bigboom
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: parts/content-page.php:20
+#: parts/content-single.php:51
+#@ bigboom
+msgid "Pages:"
+msgstr ""
+
+#: parts/content-single.php:16
+#: parts/content.php:15
+#@ bigboom
+msgid "By:"
+msgstr ""
+
+#: parts/content-single.php:17
+#: parts/content.php:16
+#, php-format
+#@ bigboom
+msgid "View all posts by %s"
+msgstr ""
+
+#: parts/content-single.php:33
+#: parts/content.php:32
+#@ bigboom
+msgid "0 comment"
+msgstr ""
+
+#: parts/content-single.php:33
+#: parts/content.php:32
+#@ bigboom
+msgid "1 comments"
+msgstr ""
+
+#: parts/content-single.php:33
+#: parts/content.php:32
+#@ bigboom
+msgid "% comments"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: parts/content-single.php:37
+#: parts/content.php:36
+#@ bigboom
+msgid ", "
+msgstr ""
+
+#: parts/content-single.php:41
+#: parts/content.php:40
+#, php-format
+#@ bigboom
+msgid "Tags: %1$s"
+msgstr ""
+
+#: parts/content.php:50
+#@ bigboom
+msgid "Read more"
+msgstr ""
+
+#: search.php:16
+#, php-format
+#@ bigboom
+msgid "Search Results for: %s"
+msgstr ""
+

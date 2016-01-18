@@ -1,0 +1,8 @@
+.product-quickview-section {
+	width: 200px;
+	height: 200px;
+	background: #fff;
+	display: none;
+	position: absolute;
+	z-index: 11000;
+}

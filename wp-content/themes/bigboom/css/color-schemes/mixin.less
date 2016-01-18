@@ -1,0 +1,319 @@
+/**
+ * Color Scheme mixin
+ */
+.color-scheme( @color ) {
+
+	/* Elements
+	----------------------------------------------------------*/
+	blockquote {
+		border-left: @color;
+	}
+
+	.btn() {
+		background-color: #333;
+		&:hover {
+			background-color: @color;
+		}
+	}
+
+	.btn-secondary() {
+		background-color: @color;
+		&:hover {
+			background-color: #333;
+		}
+	}
+
+	/* REV */
+	.tp-bullets.simplebullets.square-old .bullet.selected {
+	 	background: @color;
+	}
+
+	.tp-leftarrow.square-old,
+	.tp-rightarrow.square-old {
+	    &:hover {
+	        color: @color;
+	    }
+	}
+
+	.entry-format {
+		blockquote {
+			a {
+				color: @color;
+			}
+		}
+
+		.link-block {
+			&:hover {
+				background-color: @color;
+			}
+		}
+	}
+
+	// Comments
+	.comments-area {
+
+		.submit {
+			.btn-secondary();
+		}
+
+		.comment-list {
+
+			.comment-meta {
+				.author-name {
+					a {
+						&:hover{
+							color: @color;
+						}
+					}
+				}
+
+				.author-posted {
+					&:hover{
+						color: @color;
+					}
+				}
+			}
+		}
+	}
+
+	.search-form {
+
+		&:before {
+	        color: @color;
+	    }
+	}
+
+	// Mega menu for VC and primary sidebar only
+	.wpb_content_element,
+	.primary-sidebar {
+		.menu {
+
+			& > li {
+				&:hover {
+					background-color: @color;
+				}
+			}
+		}
+	}
+
+	.ta-product-search-widget {
+
+		.search-submit {
+			background-color: @color;
+
+			&:hover {
+				background-color: #464646;
+			}
+		}
+	}
+
+	.ta-mini-cart-widget {
+		.cart-contents {
+			.arrow {
+				background-color: @color;
+			}
+		}
+
+		.widget_shopping_cart_content {
+			border-color: @color;
+			.buttons {
+				a {
+					.btn();
+					&.checkout {
+						.btn-secondary();
+					}
+				}
+			}
+		}
+	}
+
+	.widget_wysija {
+		.wysija-submit {
+			.btn-secondary();
+		}
+	}
+
+	.backtotop {
+	  	background-color: @color;
+
+	  	&:hover {
+	  		background-color: #333;
+	  	}
+	}
+
+
+
+	.flex-control-paging li {
+		a {
+			&.flex-active {
+				background-color: @color;
+			}
+		}
+	}
+
+	/* Styling Next and Prev buttons */
+	.owl-controls {
+		.owl-buttons {
+			div {
+				background-color: @color;
+
+				&:hover {
+					background-color: #333;
+				}
+			}
+		}
+	}
+
+	.products-carousel,
+	.bb-posts-owl-carousel,
+	.bb-images-owl-carousel,
+	.products-carousel-3 {
+		.owl-primary();
+	}
+
+	.products-carousel-2 {
+		.owl-secondary();
+	}
+
+	&.woocommerce,
+	.woocommerce {
+		a.button,
+		button.button,
+		input.button,
+		#respond input#submit {
+			.btn-secondary();
+
+			&.alt {
+				.btn-secondary();
+			}
+		}
+
+		div.product {
+			.summary {
+				.yith-wcwl-add-to-wishlist a,
+				.compare.button {
+					&:hover {
+						color: @color;
+					}
+				}
+			}
+		}
+
+		ul.products {
+			li.product {
+				.bb-product-thumbnails {
+					.bb-quick-view {
+						&:hover {
+							background-color: @color;
+						}
+					}
+				}
+
+				.compare-button {
+					.compare.button:hover {
+						color: @color;
+					}
+				}
+			}
+		}
+
+
+		.compare-button .compare.button {
+			&:hover {
+				color: @color;
+			}
+		}
+
+		.yith-wcwl-add-to-wishlist {
+			.yith-wcwl-add-button,
+			.yith-wcwl-wishlistaddedbrowse,
+			.yith-wcwl-wishlistexistsbrowse {
+				a {
+					&:hover {
+						color: @color;
+					}
+				}
+			}
+		}
+
+		.product {
+			.cart {
+				.view-detail-button {
+					.btn();
+				}
+			}
+		}
+		.widget_price_filter {
+			.ui-slider {
+				.ui-slider-handle,
+				.ui-slider-range {
+					background-color: @color;
+				}
+			}
+			.price_slider_amount {
+				.button {
+					.btn();
+				}
+			}
+
+		}
+
+		.widget_layered_nav_filters ul li a:before {
+			color: @color;
+		}
+
+		.yith-woocompare-widget {
+			a.compare.button {
+				.btn();
+				&:hover {
+					color: @light !important;
+				}
+			}
+		}
+
+		table.shop_table {
+			.product-add-to-cart {
+				a {
+					.btn();
+				}
+			}
+		}
+	}
+
+	.btn-primary,
+	.btn {
+		.btn();
+	}
+
+	.icon-box  {
+		.b-icon {
+			background: @color;
+		}
+
+		&.icon-top {
+			.box-icon {
+				.b-icon {
+					&:hover {
+						background-color: @color;
+					}
+				}
+			}
+		}
+
+		&.icon-box-address {
+			.b-icon {
+				color: @color;
+				background-color: transparent;
+			}
+		}
+	}
+
+	.wpcf7-form {
+
+		.wpcf7-form-control {
+			&.wpcf7-submit {
+				.btn-secondary();
+			}
+		}
+	}
+}

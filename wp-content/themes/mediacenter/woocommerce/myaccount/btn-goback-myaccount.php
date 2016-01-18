@@ -1,0 +1,2 @@
+<hr/>
+<a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="<?php _e('My Account','media_center'); ?>"><i class="fa fa-long-arrow-left"></i> <?php _e('Go to my account','media_center'); ?></a>

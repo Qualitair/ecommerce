@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<categoryname><![CDATA[Diffuser]]></categoryname>
+		<subcategory><![CDATA[Linear Diffuser]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Bevelled Edge Diffuser]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Lay In Diffuser]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Round Diffuser]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Multi Directional Diffuser]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[Grilles/Registers]]></categoryname>
+		<subcategory><![CDATA[Bar Grille]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Egg Crate Grille]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Floor Grille]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Return Air Grille]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Return Air Floor Grille]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[Trunking]]></categoryname>
+		<subcategory><![CDATA[Trunking Jasper]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Trunking Basalt]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Trunking Night Sky]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Trunking Cream]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Trunking Deep Ocean]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Trunking Ironstone]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Trunking Monument]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Trunking Manor Red]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Trunking Paper Bark]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Trunking Shale Grey]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Trunking Surfmist]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Trunking Woodland Grey]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[Duct]]></categoryname>
+		<subcategory><![CDATA[Flexible Duct]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Nude Core Duct]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[Starting Colar]]></categoryname>
+		<subcategory><![CDATA[]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[Neck Adapter]]></categoryname>
+		<subcategory><![CDATA[]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[Controllers]]></categoryname>
+		<subcategory><![CDATA[Optional Controllers]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Ducted System Controller]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Central Control Options]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[Dampers]]></categoryname>
+		<subcategory><![CDATA[Motorized Dampers]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[Coil]]></categoryname>
+		<subcategory><![CDATA[Copper Coil]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Pair Coil]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[Sheet Metal Fittings]]></categoryname>
+		<subcategory><![CDATA[Uni Boot]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Bell Mouth]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Metal Reducer]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Metal Y]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Metal BTO]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[Return Air Box]]></categoryname>
+		<subcategory><![CDATA[]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[Volume Control Blades]]></categoryname>
+		<subcategory><![CDATA[]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[Uni-Strut]]></categoryname>
+		<subcategory><![CDATA[]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[Others/Miscellaneous Items]]></categoryname>
+		<subcategory><![CDATA[]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[Fire Dampers]]></categoryname>
+		<subcategory><![CDATA[Intumescent Fire Dampers]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[Layin Nect Adapt]]></categoryname>
+		<subcategory><![CDATA[]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[AIRCONDITIONING UNITS]]></categoryname>
+		<subcategory><![CDATA[Split Wall Mounted]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Split Floor Standing]]></subcategory>
+	</node>
+	<node>
+		<categoryname><![CDATA[]]></categoryname>
+		<subcategory><![CDATA[Ducted System]]></subcategory>
+	</node>
+</data>

@@ -1,0 +1,28 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="translate">image</custom-field>
+		<custom-field action="translate">images</custom-field>
+		<custom-field action="translate">video</custom-field>
+		<custom-field action="translate">audio</custom-field>
+		<custom-field action="translate">quote</custom-field>
+		<custom-field action="translate">quote_author</custom-field>
+		<custom-field action="copy">author_url</custom-field>
+		<custom-field action="copy">url</custom-field>
+		<custom-field action="translate">url_text</custom-field>
+		<custom-field action="copy">hide_breadcrumb</custom-field>
+		<custom-field action="copy">hide_singular_title</custom-field>
+		<custom-field action="copy">custom_layout</custom-field>
+		<custom-field action="copy">layout</custom-field>
+		<custom-field action="copy">custom_css</custom-field>
+		<custom-field action="copy">custom_js</custom-field>
+	</custom-fields>
+
+	<admin-texts>
+		<key name="theme_mods_bigboom">
+			<key name="promo_content" />
+			<key name="footer_ads_content" />
+			<key name="footer_copyright" />
+			<key name="footer_info" />
+		</key>
+	</admin-texts>
+</wpml-config>

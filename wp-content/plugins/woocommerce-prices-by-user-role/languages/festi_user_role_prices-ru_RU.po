@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: festi-woocommerce-cart\n"
+"POT-Creation-Date: 2014-09-05 16:26+0200\n"
+"PO-Revision-Date: 2014-09-05 16:28+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: common/WooUserRolePricesBackendFestiPlugin.php:197
+#: common/WooUserRolePricesBackendFestiPlugin.php:230
+msgid "Price"
+msgstr ""
+
+#: common/WooUserRolePricesBackendFestiPlugin.php:321
+#: common/WooUserRolePricesBackendFestiPlugin.php:322
+msgid "Prices by User Role"
+msgstr ""
+
+#: common/WooUserRolePricesBackendFestiPlugin.php:418
+msgid "Success refresh plugin"
+msgstr ""
+
+#: common/WooUserRolePricesBackendFestiPlugin.php:480
+msgid "Prices by User Role Options"
+msgstr ""
+
+#: common/WooUserRolePricesBackendFestiPlugin.php:496
+msgid "Unable to remove a role. Key does not exist."
+msgstr ""
+
+#: common/WooUserRolePricesBackendFestiPlugin.php:529
+msgid "You have not entered the name of the role"
+msgstr ""
+
+#: common/WooUserRolePricesBackendFestiPlugin.php:583
+msgid "Unsuccessful attempt to create a role"
+msgstr ""
+
+#: common/WooUserRolePricesBackendFestiPlugin.php:681
+msgid "Hide Add to Cart Button"
+msgstr ""
+
+#: common/WooUserRolePricesBackendFestiPlugin.php:689
+msgid "Show Prices for all products only for Registered Users"
+msgstr ""
+
+#: common/WooUserRolePricesBackendFestiPlugin.php:698
+msgid "Text for Non-Registered Users"
+msgstr ""
+
+#: common/WooUserRolePricesBackendFestiPlugin.php:703
+msgid "Please login or register to see price"
+msgstr ""
+
+#: common/WooUserRolePricesBackendFestiPlugin.php:710
+msgid "Hide Prices for User Roles"
+msgstr ""
+
+#: common/WooUserRolePricesBackendFestiPlugin.php:721
+msgid "Text for Registered Users with Hidden Price"
+msgstr ""
+
+#: common/WooUserRolePricesBackendFestiPlugin.php:726
+msgid "Price for your role is hidden"
+msgstr ""
+
+#: common/WooUserRolePricesBackendFestiPlugin.php:733
+msgid "Pricing Roles"
+msgstr ""
+
+#: common/WooUserRolePricesBackendFestiPlugin.php:829
+msgid "Caching does not work! "
+msgstr ""
+
+#: common/WooUserRolePricesBackendFestiPlugin.php:834
+msgid "You don't have permission to access: "
+msgstr ""
+
+#: templates/backend/manual_url.phtml:8
+msgid "Link to manual"
+msgstr ""
+
+#: templates/backend/product_tab.phtml:3
+msgid "Hide Roles Price"
+msgstr ""
+
+#: templates/backend/product_tab_content.phtml:8
+msgid "Show Prices only for Registered Users"
+msgstr ""
+
+#: templates/backend/product_tab_content.phtml:25
+msgid "Hide Prices for User Roles:"
+msgstr ""
+
+#: templates/backend/refresh.phtml:10
+msgid "Refresh Plugin"
+msgstr ""
+
+#: templates/backend/rolle_filds.phtml:39
+msgid "delete"
+msgstr ""
+
+#: templates/backend/settings_page.phtml:34
+msgid "Save Changes"
+msgstr ""
+
+#: templates/backend/settings_page.phtml:38
+#: templates/backend/settings_page.phtml:66
+msgid "Add New Role"
+msgstr ""
+
+#: templates/backend/settings_page.phtml:46
+msgid "Active"
+msgstr ""
+
+#: templates/backend/settings_page.phtml:50
+msgid "Role Name"
+msgstr ""
+
+#: templates/backend/form/multicheck.phtml:46
+msgid "&times;"
+msgstr ""
+
+#~ msgid "WooCommerce not active or not installed."
+#~ msgstr "WooCommerce не активен или не установлен"

@@ -1,0 +1,329 @@
+# Copyright (C) 2015 SkyVerge
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Amazon FPS Gateway 2.2.0\n"
+"Report-Msgid-Bugs-To: https://support.woothemes.com/hc/\n"
+"POT-Creation-Date: 2014-06-15 22:41:24+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/api/abstract/abstract-wc-amazon-fps-api-base.php:139
+msgid "FPS - Failed to sort parameters: %s"
+msgstr ""
+
+#: includes/api/class-wc-amazon-fps-api.php:197
+msgid "Response body is empty"
+msgstr ""
+
+#: includes/api/fps/class-wc-amazon-fps-api-request.php:105
+msgid "FPS: Token ID is missing for order"
+msgstr ""
+
+#: includes/api/fps/class-wc-amazon-fps-api-response.php:65
+#: includes/class-wc-gateway-amazon-fps.php:325
+msgid "N/A"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps-addons.php:123
+msgid "%s - Subscription Order %s"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps-addons.php:218
+msgid "Amazon Subscription Renewal Transaction Approved (ID: %s)"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps-addons.php:223
+msgid "Amazon Subscription Renewal Transaction Failed (ID: %s - Code: %s - %s"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps-addons.php:228
+msgid "Amazon Subscription Renewal Transaction Cancelled (ID: %s)"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps-addons.php:241
+#: includes/class-wc-gateway-amazon-fps.php:398
+msgid "IPN: "
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps-addons.php:265
+#: includes/class-wc-gateway-amazon-fps-addons.php:302
+msgid "invalid or missing token"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:62
+msgid "Amazon FPS"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:63
+msgid ""
+"Let customers checkout using any payment method stored in their Amazon.com "
+"account for single purchases, pre-orders, and subscriptions."
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:110
+msgid "Enable / Disable"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:111
+msgid "Check this to enable the gateway."
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:117
+msgid "Title"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:119
+msgid "Payment method title that the customer will see during checkout."
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:120
+#: woocommerce-gateway-amazon-fps.php:335
+msgid "Amazon"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:124
+msgid "Description"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:126
+msgid ""
+"Payment method description that the customer will see during checkout. "
+"Limited HTML allowed."
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:127
+#: woocommerce-gateway-amazon-fps.php:336
+msgid "Pay securely using your Amazon.com account"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:131
+msgid "Environment"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:133
+msgid "What environment do you want your transactions posted to?"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:136
+msgid "Production"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:137
+msgid "Sandbox"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:142
+msgid "AWS Access Key"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:144
+msgid ""
+"The Access Key for your Amazon AWS account, please see the "
+"%sdocumentation%s for instructions on where to find this."
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:149
+msgid "AWS Secret Key"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:151
+msgid ""
+"The Secret Key for your Amazon AWS account, please see the "
+"%sdocumentation%s for instructions on where to find this."
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:156
+msgid "Debug Mode"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:158
+msgid ""
+"Show Detailed Error Messages and API requests / responses on the checkout "
+"page and/or save them to the log for debugging purposes."
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:161
+msgid "Off"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:162
+msgid "Show on Checkout Page"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:163
+msgid "Save to Log"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:164
+msgid "Both"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:204
+msgid "Sandbox Mode Enabled"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:265
+msgid "%s - Order %s"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:294
+msgid "Order Failed, please contact us."
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:309
+msgid "Customer aborted transaction"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:314
+msgid "Caller Reference %s does not match Order ID %s"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:319
+#: includes/class-wc-gateway-amazon-fps.php:470
+msgid "Signature Verification Failed"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:325
+msgid "Status: %s - %s"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:330
+msgid "Amazon Transaction Warning: Code %s - %s"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:346
+msgid "Redirect: "
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:368
+msgid "Amazon Payment Pending, awaiting IPN (ID: %s)"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:428
+msgid "IPN Failure: Invalid or missing order ID"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:455
+msgid "Transaction ID is missing"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:460
+msgid "Transaction status is missing"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:465
+msgid "Provided transaction ID %s does not match stored transaction ID %s"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:492
+msgid "ID: %s - Code: %s - %s"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:521
+msgid "Amazon Transaction Approved (ID: %s)"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:523
+msgid "Amazon Token Approved"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:541
+msgid "Amazon Transaction Cancelled (ID: %s)"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:555
+msgid "Amazon Transaction Failed (%s)"
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:565
+msgid "An error occurred, please try again or try an alternate form of payment."
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:600
+msgid "API Request: "
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:607
+msgid "API Response: "
+msgstr ""
+
+#: includes/class-wc-gateway-amazon-fps.php:633
+msgid "The gateway must be configured before use."
+msgstr ""
+
+#: lib/skyverge/woocommerce/class-sv-wc-admin-notice-handler.php:196
+msgid "Dismiss"
+msgstr ""
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:193
+msgid "You cannot clone instances of %s."
+msgstr ""
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:202
+msgid "You cannot unserialize instances of %s."
+msgstr ""
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:320
+msgid ""
+"%s requires the %s PHP extension to function.  Contact your host or server "
+"administrator to configure and install the missing extension."
+msgid_plural ""
+"%s requires the following PHP extensions to function: %s.  Contact your "
+"host or server administrator to configure and install the missing "
+"extensions."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:340
+msgid ""
+"%s requires the %s PHP function to exist.  Contact your host or server "
+"administrator to configure and install the missing function."
+msgid_plural ""
+"%s requires the following PHP functions to exist: %s.  Contact your host or "
+"server administrator to configure and install the missing functions."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:375
+msgid "Docs"
+msgstr ""
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:379
+msgid "Support"
+msgstr ""
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:383
+msgid "Write a Review"
+msgstr ""
+
+#: lib/skyverge/woocommerce/class-sv-wc-plugin.php:633
+msgid "Configure"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Amazon FPS Gateway"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.woothemes.com/products/amazon-fps/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Adds the Amazon FPS Payment Gateway to your WooCommerce store, allowing "
+"customers to securely use their Amazon account with single purchases, "
+"pre-orders, subscriptions, and more!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SkyVerge"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.skyverge.com"
+msgstr ""

@@ -1,0 +1,467 @@
+.site-main {
+	& > article {
+		margin: 0 0 30px 0;
+	}
+
+	.numeric-navigation {
+		float: right;
+	}
+
+	.results-navigation {
+		float: left;
+		line-height: 30px;
+	}
+
+	.pagination {
+		border-top: 1px solid @border-primary;
+		padding-top: 12px;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		border-radius: 0;
+	}
+}
+
+.entry-header {
+	.entry-title {
+		margin: 0 0 10px;
+		font-size: 18px;
+	}
+
+	.entry-author,
+	.entry-date,
+	.entry-comments {
+		margin-right: 20px;
+		color: @gray-light;
+		font-size: @font-size-small;
+
+		i {
+			margin-right: 4px;
+			color: @dark;
+		}
+
+		a {
+			color: @gray-light;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+	}
+
+	.entry-author {
+		a {
+			color: @dark;
+		}
+	}
+
+	.entry-date {
+		i {
+			margin-right: 8px;
+		}
+	}
+
+	.tags-links {
+		display: block;
+		padding: 10px 0;
+		font-size: @font-size-small;
+
+		a {
+			color: @gray-light;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+.entry-format {
+	margin-bottom: 20px;
+
+	img {
+		display: block;
+	}
+
+	iframe {
+		width: 100%;
+	}
+
+	blockquote,
+	.link-block {
+		color: @light;
+		font-size: @font-size-h3;
+		font-style: normal;
+		font-weight: 300;
+		position: relative;
+		display: block;
+		margin: 0;
+		padding: 30px 30px 30px 80px;
+		background-color: #27282b;
+		line-height: 1.1;
+
+		&:before {
+			position: absolute;
+			left: 30px;
+			top: 33px;
+			color: @light;
+		}
+	}
+
+	blockquote {
+		&:before {
+			font-family: FontAwesome;
+			content: "\f10d";
+		}
+
+		cite {
+			font-style: italic;
+			font-size: @font-size;
+			display: block;
+			margin-top: 10px;
+		}
+
+		a {
+			color: @primary-color;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.link-block {
+		&:before {
+			font-family: FontAwesome;
+			content: "\f0c1";
+			transition: 0.3s;
+		}
+
+		&:hover {
+			background-color: @primary-color;
+			text-decoration: none;
+
+			&:before {
+				color: @light;
+			}
+		}
+	}
+}
+
+.entry-footer {
+	margin-top: 15px;
+}
+
+.format-audio .entry-format {
+	iframe {
+		height: auto;
+	}
+
+	.audio-player {
+		background-color: #222;
+		padding: 10px 0;
+	}
+}
+
+// Comments
+.comments-area {
+	clear: both;
+
+	.comment-reply-title {
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: 700;
+		margin-bottom: 20px;
+		font-family: @font-family-secondary;
+	}
+
+	.comment-notes,
+	.form-allowed-tags {
+		display: none;
+	}
+
+	label {
+		font-weight: 400;
+	}
+
+	input,
+	textarea {
+		border: 1px solid @border-primary;
+		width: 100%;
+		margin-bottom: 10px;
+		padding: 8px;
+		background-color: transparent;
+		font-weight: 400;
+	}
+
+	.submit {
+		.btn-secondary();
+		width: auto;
+	}
+
+	.comments-title {
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: 700;
+		margin: 0;
+	}
+
+	.comment-list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		float: left;
+
+		.comment {
+			float: left;
+			clear: both;
+			width: 100%;
+
+			article {
+				padding: 23px 0;
+				border-top: 1px solid @border-primary;
+				overflow: hidden;
+			}
+
+			.children {
+				float: left;
+				padding: 0;
+				list-style: none;
+				width: 100%;
+
+				article {
+					padding-left: 60px;
+					width: 100%;
+				}
+
+				.children {
+					article {
+						padding-left: 120px;
+					}
+
+					.children {
+						article {
+							padding-left: 180px;
+						}
+					}
+				}
+			}
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		.comment-author {
+			padding-right: 15px;
+			float: left;
+
+			.avatar {
+				width: 65px;
+				height: 65px;
+			}
+		}
+
+		.comment-meta {
+			padding-left: 80px;
+
+			.author-name {
+				a {
+					&:hover{
+						color: @primary-color;
+					}
+				}
+			}
+
+			.comment-reply-link {
+				float: right;
+				color: #adadad;
+
+				&:hover {
+					color: #b0d95e;
+				}
+			}
+
+			.comment-edit-link {
+				float: right;
+				margin-right: 20px;
+			}
+
+			.author-posted {
+				color: @gray-light;
+
+				&:hover{
+					color: @primary-color;
+				}
+			}
+		}
+
+		& > .comment:first-child article {
+			border: none;
+		}
+	}
+
+	.numeric-navigation {
+		clear: both;
+		padding-top: 30px;
+	}
+
+	.comment-respond {
+		margin-top: 50px;
+	}
+
+	.comment-content {
+		word-break: break-all;
+		padding-top: 8px;
+	}
+
+	.comment-awaiting-moderation {
+		display: block;
+	}
+}
+
+.bb-post {
+	padding: 0 15px;
+
+	.post-thumb {
+		float: left;
+		margin-right: 15px;
+		display: block;
+
+		img {
+			display: block;
+			max-width: 113px;
+			max-height: 113px;
+		}
+	}
+
+	.post-text {
+		margin-left: 128px;
+		padding: 15px;
+		border: 1px solid @border-secondary;
+		position: relative;
+
+		.post-title {
+			font-size: 14px;
+			font-weight: 700;
+			padding-bottom: 5px;
+			display: block;
+			line-height: 1.3;
+		}
+
+		.read-more {
+			color: @gray-light;
+
+			i {
+				margin-left: 5px;
+				padding-left: 1px;
+			}
+
+			&:hover {
+				color: @gray-light;
+
+				.fa {
+					-webkit-animation: fa-spin 2s infinite linear;
+	  				animation: fa-spin 2s infinite linear;
+				}
+			}
+		}
+		&:after,
+		&:before {
+			right: 100%;
+			top: 15px;
+			border: solid transparent;
+			content: " ";
+			height: 0;
+			width: 0;
+			position: absolute;
+			pointer-events: none;
+		}
+
+		&:after {
+			border-right-color: @light;
+			border-width: 9px;
+			margin-top: 0;
+		}
+		&:before {
+			border-right-color: @border-secondary;
+			border-width: 10px;
+			margin-top: -1px;
+		}
+	}
+
+	&.no-thumb .post-text {
+		margin-left: 0;
+	}
+}
+
+.sidebar-content {
+	.content-area {
+		float: right;
+	}
+}
+
+.page-header {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 15px;
+
+	.page-title {
+		font-size: 20px;
+		margin: 0 0 15px;
+	}
+}
+
+.error404 {
+	.page-header {
+		border: none;
+		text-align: center;
+
+		.page-title {
+			letter-spacing: 15px;
+			font-size: 85px;
+		}
+	}
+
+	.page-content p {
+		margin:25px 0;
+	}
+}
+
+.owl-carousel {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	.owl-buttons .owl-prev,
+	.owl-buttons .owl-next {
+		transition: 0.5s;
+	}
+
+
+}
+
+.flexslider {
+	.owl-carousel {
+		overflow: hidden;
+		&:hover {
+			.owl-buttons .owl-prev {
+				opacity: 0.7;
+				left: 10px;
+				&:hover{
+					opacity: 1;
+				}
+			}
+
+			.owl-buttons .owl-next {
+				opacity: 0.7;
+				right: 10px;
+				&:hover{
+					opacity: 1;
+				}
+
+			}
+		}
+	}
+}

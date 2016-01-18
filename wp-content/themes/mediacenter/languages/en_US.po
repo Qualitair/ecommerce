@@ -1,0 +1,3021 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Media Center\n"
+"POT-Creation-Date: 2015-06-11 18:03+0530\n"
+"PO-Revision-Date: 2015-06-11 18:03+0530\n"
+"Last-Translator: \n"
+"Language-Team: Transvelo <ibrahim@transvelo.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;__ngettext:1,2;_n:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:12
+msgid "404"
+msgstr ""
+
+#: ../404.php:13
+msgid "We are sorry, the page you've requested is not available."
+msgstr ""
+
+#: ../404.php:16 ../searchform.php:13
+msgid "Type to search"
+msgstr ""
+
+#: ../404.php:17
+msgid "Go"
+msgstr ""
+
+#: ../404.php:21
+msgid "Go to Home Page"
+msgstr ""
+
+#: ../comments.php:26
+#, php-format
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:39
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:40
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:41
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:50
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-audio.php:16 ../content-gallery.php:11 ../content-image.php:16
+#: ../content-video.php:17 ../content.php:17
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../content-none.php:8
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content-none.php:10
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: ../content-page.php:34 ../content-status.php:19
+#: ../framework/inc/mediacenter-blog-functions.php:204
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../content-page.php:35 ../framework/inc/mediacenter-blog-functions.php:206
+msgid "Pages:"
+msgstr ""
+
+#: ../content-single.php:41
+msgid "Tags : "
+msgstr ""
+
+#: ../content-status.php:22
+msgid "Leave a reply"
+msgstr ""
+
+#: ../content-status.php:22
+msgid "1 Reply"
+msgstr ""
+
+#: ../content-status.php:22
+msgid "% Replies"
+msgstr ""
+
+#: ../content-status.php:24
+#: ../framework/inc/mediacenter-blog-functions.php:250
+#: ../framework/inc/mediacenter-blog-functions.php:256
+#: ../woocommerce/myaccount/my-address.php:45
+msgid "Edit"
+msgstr ""
+
+#: ../footer.php:30 ../sidebar-shop.php:42
+#: ../framework/widgets/class-mc-widget-home-tabs.php:35
+#: ../framework/widgets/class-mc-widget-home-tabs.php:52
+#: ../framework/widgets/class-mc-widget-home-tabs.php:69
+msgid "Featured Products"
+msgstr ""
+
+#: ../footer.php:33 ../sidebar-shop.php:37
+msgid "Special Offers"
+msgstr ""
+
+#: ../footer.php:36 ../framework/widgets/class-mc-widget-home-tabs.php:37
+#: ../framework/widgets/class-mc-widget-home-tabs.php:54
+#: ../framework/widgets/class-mc-widget-home-tabs.php:71
+msgid "Top Rated Products"
+msgstr ""
+
+#: ../footer.php:47 ../framework/templates/header/search-bar.php:20
+msgid "Search for:"
+msgstr ""
+
+#: ../footer.php:48 ../framework/templates/header/search-bar.php:21
+msgid "Search for products"
+msgstr ""
+
+#: ../footer.php:49 ../searchform.php:17
+#: ../framework/templates/header/search-bar.php:65
+msgid "Search"
+msgstr ""
+
+#: ../footer.php:86
+msgid "Get in touch"
+msgstr ""
+
+#: ../footer.php:145
+msgid "Find it Fast"
+msgstr ""
+
+#: ../footer.php:169
+msgid "Meta"
+msgstr ""
+
+#: ../footer.php:172
+msgid "Pages"
+msgstr ""
+
+#: ../footer.php:176 ../woocommerce/checkout/thankyou.php:26
+#: ../woocommerce/myaccount/btn-goback-myaccount.php:2
+msgid "My Account"
+msgstr ""
+
+#: ../functions.php:191 ../framework/inc/class-tgm-plugin-activation.php:226
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../functions.php:192 ../framework/inc/class-tgm-plugin-activation.php:227
+msgid "Install Plugins"
+msgstr ""
+
+#: ../functions.php:193 ../framework/inc/class-tgm-plugin-activation.php:228
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../functions.php:194
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../functions.php:195 ../framework/inc/class-tgm-plugin-activation.php:230
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:196 ../framework/inc/class-tgm-plugin-activation.php:231
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:197 ../framework/inc/class-tgm-plugin-activation.php:232
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:198 ../framework/inc/class-tgm-plugin-activation.php:233
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:199 ../framework/inc/class-tgm-plugin-activation.php:234
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:200 ../framework/inc/class-tgm-plugin-activation.php:235
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:201 ../framework/inc/class-tgm-plugin-activation.php:236
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:202 ../framework/inc/class-tgm-plugin-activation.php:237
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:203 ../framework/inc/class-tgm-plugin-activation.php:238
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:204
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:205 ../framework/inc/class-tgm-plugin-activation.php:240
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../functions.php:206 ../framework/inc/class-tgm-plugin-activation.php:242
+#: ../framework/inc/class-tgm-plugin-activation.php:2107
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../functions.php:207
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../functions.php:361
+msgid "Top Bar Left Navigation"
+msgstr ""
+
+#: ../functions.php:362
+msgid "Top Bar Right Navigation"
+msgstr ""
+
+#: ../functions.php:363
+msgid "Main Navigation"
+msgstr ""
+
+#: ../functions.php:364
+msgid "Shop by Departments"
+msgstr ""
+
+#: ../functions.php:498
+msgid "Added"
+msgstr ""
+
+#: ../functions.php:499
+msgid "Product Comparison"
+msgstr ""
+
+#: ../functions.php:520
+msgid ""
+"We are sorry,but this feature is available only if cookies on your browser "
+"are enabled."
+msgstr ""
+
+#: ../functions.php:561
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../functions.php:593
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../functions.php:639
+msgid "Sidebar"
+msgstr ""
+
+#: ../functions.php:649
+msgid "Footer Widget Area"
+msgstr ""
+
+#: ../functions.php:659
+msgid "Footer Bottom Widget Area"
+msgstr ""
+
+#: ../functions.php:669
+msgid "Shop Sidebar"
+msgstr ""
+
+#: ../functions.php:679 ../sidebar-shop.php:10
+msgid "Product Filters"
+msgstr ""
+
+#: ../functions.php:1118
+msgid "Sorry. No results match your search."
+msgstr ""
+
+#: ../searchform.php:12
+msgid "Type your search here"
+msgstr ""
+
+#: ../sidebar-shop.php:34
+msgid "Categories"
+msgstr ""
+
+#: ../framework/inc/breadcrumb.php:67
+msgid "Products tagged &ldquo;"
+msgstr ""
+
+#: ../framework/inc/breadcrumb.php:95 ../framework/inc/breadcrumb.php:196
+msgid "Search results for &ldquo;"
+msgstr ""
+
+#: ../framework/inc/breadcrumb.php:152
+msgid "Error 404"
+msgstr ""
+
+#: ../framework/inc/breadcrumb.php:200
+msgid "Posts tagged &ldquo;"
+msgstr ""
+
+#: ../framework/inc/breadcrumb.php:205
+msgid "Author:"
+msgstr ""
+
+#: ../framework/inc/breadcrumb.php:210
+msgid "Page"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:229
+msgid "Something went wrong."
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:239
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:241
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:243
+#: ../framework/inc/class-tgm-plugin-activation.php:1769
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:244
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:245
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:595
+#: ../framework/inc/class-tgm-plugin-activation.php:2337
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:1281
+msgid "Private Repository"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:1285
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:1290
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:1293
+msgid "Required"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:1293
+msgid "Recommended"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:1296
+msgid "Not Installed"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:1299
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:1416
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:1438
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:1481
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\">Return to the Dashboard</"
+"a>"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:1497
+msgid "Plugin"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:1498
+msgid "Source"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:1499
+msgid "Type"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:1500
+#: ../woocommerce/myaccount/my-orders.php:36
+#: ../woocommerce/myaccount/my-orders.php:60
+msgid "Status"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:1518
+msgid "Install"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:1519
+msgid "Activate"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:1630
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:1746
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:2090
+msgid "Install package not available."
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:2091
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:2092
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:2093
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:2094
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:2095
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:2106
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:2229
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:2230
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:2234
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:2235
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:2235
+#: ../framework/inc/class-tgm-plugin-activation.php:2242
+msgid "Show Details"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:2235
+#: ../framework/inc/class-tgm-plugin-activation.php:2242
+msgid "Hide Details"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:2236
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:2237
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:2241
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:2242
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:2243
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../framework/inc/class-tgm-plugin-activation.php:2244
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/inc/mediacenter-blog-functions.php:220
+#: ../templates/blog-style/style-grid.php:35
+#: ../templates/blog-style/style-list.php:42
+msgid "Read More"
+msgstr ""
+
+#: ../framework/inc/mediacenter-blog-functions.php:240
+#, php-format
+msgid "Posted By : %s"
+msgstr ""
+
+#: ../framework/inc/mediacenter-blog-functions.php:244
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: ../framework/inc/mediacenter-blog-functions.php:247
+msgid "Leave a comment"
+msgstr ""
+
+#: ../framework/inc/mediacenter-blog-functions.php:247
+msgid "1 Comment"
+msgstr ""
+
+#: ../framework/inc/mediacenter-blog-functions.php:247
+msgid "% Comments"
+msgstr ""
+
+#: ../framework/inc/mediacenter-blog-functions.php:662
+msgid "Sidebar Right"
+msgstr ""
+
+#: ../framework/inc/mediacenter-blog-functions.php:667
+msgid "Sidebar Left"
+msgstr ""
+
+#: ../framework/inc/mediacenter-blog-functions.php:672
+msgid "Without Sidebar"
+msgstr ""
+
+#: ../framework/inc/mediacenter-blog-functions.php:714
+msgid "Pingback:"
+msgstr ""
+
+#: ../framework/inc/mediacenter-blog-functions.php:714
+msgid "(Edit)"
+msgstr ""
+
+#: ../framework/inc/mediacenter-blog-functions.php:738
+msgid "Post author"
+msgstr ""
+
+#: ../framework/inc/mediacenter-blog-functions.php:741
+msgid "Awaiting moderation."
+msgstr ""
+
+#: ../framework/inc/mediacenter-blog-functions.php:746
+msgid "Reply"
+msgstr ""
+
+#: ../framework/inc/mediacenter-blog-functions.php:780
+#: ../framework/inc/pagination.php:29
+msgid "Post navigation"
+msgstr ""
+
+#: ../framework/inc/mediacenter-blog-functions.php:784
+msgid "%title"
+msgstr ""
+
+#: ../framework/inc/mediacenter-blog-functions.php:787
+msgid "&larr; %title"
+msgstr ""
+
+#: ../framework/inc/mediacenter-blog-functions.php:790
+msgid "%title &rarr;"
+msgstr ""
+
+#: ../framework/inc/mediacenter-breadcrumb.php:33
+msgid "Shop by Department"
+msgstr ""
+
+#: ../framework/inc/pagination.php:36
+msgid "Prev"
+msgstr ""
+
+#: ../framework/inc/pagination.php:71
+msgid "Next"
+msgstr ""
+
+#: ../framework/inc/woocommerce-template-functions.php:159
+msgid "Order Again"
+msgstr ""
+
+#: ../framework/inc/woocommerce-template-functions.php:508
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: ../framework/inc/woocommerce-template-functions.php:520
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: ../framework/inc/woocommerce-template-functions.php:538
+msgid "Speed your way through the checkout"
+msgstr ""
+
+#: ../framework/inc/woocommerce-template-functions.php:539
+msgid "Track your orders easily"
+msgstr ""
+
+#: ../framework/inc/woocommerce-template-functions.php:540
+msgid "Keep a record of all your purchases"
+msgstr ""
+
+#: ../framework/inc/woocommerce-template-functions.php:544
+msgid "Sign up today and you'll be able to :"
+msgstr ""
+
+#: ../framework/inc/post-formats/post-formats.php:78
+msgid "Loading..."
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-audio.php:2
+msgid "Audio URL (oEmbed) or Embed Code"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-audio.php:12
+msgid "Audio Options"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-audio.php:16
+msgid "Enter the paths to your audio files in the fields below"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-audio.php:23
+msgid "MP3 File URL"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-audio.php:24
+msgid "URL to an .mp3 file"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-audio.php:34
+msgid "OGA File URL"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-audio.php:35
+msgid "URL to an .oga or .ogg file"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-audio.php:45
+msgid "Embedded Audio"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-audio.php:46
+msgid "Add embedded audio formats."
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-gallery.php:2
+msgid "Gallery Images"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-gallery.php:29
+msgid "Edit Gallery"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-gallery.php:29
+msgid "Add Images to Gallery"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-link.php:2
+msgid "URL"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-link.php:11
+#: ../framework/inc/post-formats/views/format-link.php:20
+msgid "Link URL"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-link.php:21
+msgid "The URL of your link."
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-quote.php:3
+#: ../framework/inc/post-formats/views/format-quote.php:38
+msgid "Source Name"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-quote.php:7
+msgid "Source URL"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-quote.php:18
+#: ../framework/inc/post-formats/views/format-quote.php:27
+msgid "Quote"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-quote.php:28
+msgid "The text being quoted."
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-quote.php:39
+msgid "The person being cited."
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-video.php:2
+msgid "Video URL (oEmbed) or Embed Code"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-video.php:12
+msgid "Video Options"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-video.php:16
+msgid ""
+"For HTML5 video support and Flash fallback please include an M4V file. "
+"Include an OGV file optionally to increase cross browser support."
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-video.php:23
+msgid "Video Height"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-video.php:24
+msgid "The video height (e.g. 500)."
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-video.php:34
+msgid "M4V File URL"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-video.php:35
+msgid "The URL to the .m4v video file"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-video.php:45
+msgid "OGV File URL"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-video.php:46
+msgid "The URL to the .ogv video file"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-video.php:56
+msgid "WEBM File URL"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-video.php:57
+msgid "The URL to the .webm video file"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-video.php:67
+msgid "Video Poster"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-video.php:68
+msgid "A preivew image."
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-video.php:78
+msgid "Embedded Code"
+msgstr ""
+
+#: ../framework/inc/post-formats/views/format-video.php:79
+msgid "If not using self hosted video you can include embeded code here."
+msgstr ""
+
+#: ../framework/inc/post-formats/views/tabs.php:10
+#: ../templates/blog-style/style-grid.php:20
+#: ../templates/blog-style/style-list.php:19
+msgid "Standard"
+msgstr ""
+
+#: ../framework/metaboxes/mc-page-meta.php:6
+msgid "Hide Title"
+msgstr ""
+
+#: ../framework/metaboxes/mc-page-meta.php:8
+msgid "Check this if you do not want to display title in your page."
+msgstr ""
+
+#: ../framework/metaboxes/mc-page-meta.php:12
+msgid "Page Title"
+msgstr ""
+
+#: ../framework/metaboxes/mc-page-meta.php:14
+msgid ""
+"Leave blank if you do not want to display a different title for your page"
+msgstr ""
+
+#: ../framework/metaboxes/mc-page-meta.php:18
+msgid "Page Subtitle"
+msgstr ""
+
+#: ../framework/metaboxes/mc-page-meta.php:24
+msgid "Do not wrap the page with a container."
+msgstr ""
+
+#: ../framework/metaboxes/mc-page-meta.php:26
+msgid ""
+"Check this if you want your page elements run full width without being "
+"contained. Eg, Google Maps on Contact Page, Full-width slider on Home Page."
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:50
+msgid "Has Container ?"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:52
+msgid "Wrap the row element with container."
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:56
+msgid "Container Class"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:59
+msgid "Container"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:60
+msgid "Container Fluid"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:62
+msgid ""
+"Specify the class for the container. Will be applied only if has container "
+"is set to true."
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:66
+msgid "CSS3 Animation"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:69
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:54
+#: ../settings/mediacenter.config.php:18
+msgid "No Animation"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:70
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:55
+#: ../settings/mediacenter.config.php:19
+msgid "BounceIn"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:71
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:56
+#: ../settings/mediacenter.config.php:20
+msgid "BounceInDown"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:72
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:57
+#: ../settings/mediacenter.config.php:21
+msgid "BounceInLeft"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:73
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:58
+#: ../settings/mediacenter.config.php:22
+msgid "BounceInRight"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:74
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:59
+#: ../settings/mediacenter.config.php:23
+msgid "BounceInUp"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:75
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:60
+#: ../settings/mediacenter.config.php:24
+msgid "FadeIn"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:76
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:61
+#: ../settings/mediacenter.config.php:25
+msgid "FadeInDown"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:77
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:62
+#: ../settings/mediacenter.config.php:26
+msgid "FadeInDown Big"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:78
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:63
+#: ../settings/mediacenter.config.php:27
+msgid "FadeInLeft"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:79
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:64
+#: ../settings/mediacenter.config.php:28
+msgid "FadeInLeft Big"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:80
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:65
+#: ../settings/mediacenter.config.php:29
+msgid "FadeInRight"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:81
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:66
+#: ../settings/mediacenter.config.php:30
+msgid "FadeInRight Big"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:82
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:67
+#: ../settings/mediacenter.config.php:31
+msgid "FadeInUp"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:83
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:68
+#: ../settings/mediacenter.config.php:32
+msgid "FadeInUp Big"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:84
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:69
+#: ../settings/mediacenter.config.php:33
+msgid "FlipInX"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:85
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:70
+#: ../settings/mediacenter.config.php:34
+msgid "FlipInY"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:86
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:71
+msgid "Light SpeedIn"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:87
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:72
+#: ../settings/mediacenter.config.php:36
+msgid "RotateIn"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:88
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:73
+#: ../settings/mediacenter.config.php:37
+msgid "RotateInDown Left"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:89
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:74
+#: ../settings/mediacenter.config.php:38
+msgid "RotateInDown Right"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:90
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:75
+#: ../settings/mediacenter.config.php:39
+msgid "RotateInUp Left"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:91
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:76
+#: ../settings/mediacenter.config.php:40
+msgid "RotateInUp Right"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:92
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:77
+#: ../settings/mediacenter.config.php:41
+msgid "RoleIn"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:93
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:78
+#: ../settings/mediacenter.config.php:42
+msgid "ZoomIn"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:94
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:79
+#: ../settings/mediacenter.config.php:43
+msgid "ZoomInDown"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:95
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:80
+#: ../settings/mediacenter.config.php:44
+msgid "ZoomInLeft"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:96
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:81
+#: ../settings/mediacenter.config.php:45
+msgid "ZoomInRight"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:97
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:82
+#: ../settings/mediacenter.config.php:46
+msgid "ZoomInUp"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:99
+msgid "Choose the animation effect on the row when scrolled into view."
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:116
+msgid "Style 1"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/custom_vc.php:117
+msgid "Style 2"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/vc_templates/vc_accordion_tab.php:5
+msgid "Section"
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/vc_templates/vc_accordion_tab.php:39
+msgid "Empty section. Edit page to add content here."
+msgstr ""
+
+#: ../framework/shortcodes/visual-composer/vc_templates/vc_toggle.php:4
+msgid "Click to toggle"
+msgstr ""
+
+#: ../framework/templates/header/search-bar.php:51
+#: ../framework/templates/header/search-bar.php:59
+msgid "All Categories"
+msgstr ""
+
+#: ../framework/templates/header/top-cart.php:20
+#: ../woocommerce/wishlist.php:22
+msgid "Wishlist"
+msgstr ""
+
+#: ../framework/templates/header/top-cart.php:30
+msgid "Compare"
+msgstr ""
+
+#: ../framework/templates/header/top-megamenu-nav.php:20
+msgid "Toggle navigation"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-brands-filter.php:21
+msgid ""
+"Shows brands in a widget which lets you narrow down the list of products "
+"when viewing product categories."
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-brands-filter.php:23
+msgid "MediaCenter Brands Filter"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-brands-filter.php:27
+msgid "Filter by"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-brands-filter.php:28
+msgid "Title"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-brands-filter.php:33
+msgid "Display type"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-brands-filter.php:35
+msgid "List"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-brands-filter.php:36
+msgid "Dropdown"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-brands-filter.php:42
+msgid "Query type"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-brands-filter.php:44
+msgid "AND"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-brands-filter.php:45
+msgid "OR"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-brands-filter.php:131
+#, php-format
+msgid "Any %s"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-home-tabs.php:21
+msgid "A list or dropdown of product categories."
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-home-tabs.php:23
+msgid "Media Center Home Tabs"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-home-tabs.php:27
+msgid "Featured"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-home-tabs.php:28
+msgid "Tab #1 Title"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-home-tabs.php:33
+#: ../framework/widgets/class-mc-widget-home-tabs.php:50
+#: ../framework/widgets/class-mc-widget-home-tabs.php:67
+msgid "Show"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-home-tabs.php:36
+#: ../framework/widgets/class-mc-widget-home-tabs.php:53
+#: ../framework/widgets/class-mc-widget-home-tabs.php:70
+msgid "On Sale Products"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-home-tabs.php:38
+#: ../framework/widgets/class-mc-widget-home-tabs.php:55
+#: ../framework/widgets/class-mc-widget-home-tabs.php:72
+msgid "Recent Products"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-home-tabs.php:39
+#: ../framework/widgets/class-mc-widget-home-tabs.php:56
+#: ../framework/widgets/class-mc-widget-home-tabs.php:73
+msgid "Best Selling Products"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-home-tabs.php:44
+msgid "New Arrivals"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-home-tabs.php:45
+msgid "Tab #2 Title"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-home-tabs.php:61
+msgid "Top Sales"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-home-tabs.php:62
+msgid "Tab #3 Title"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-home-tabs.php:79
+#: ../settings/mediacenter.config.php:480
+msgid "Product Item Size"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-home-tabs.php:81
+msgid "Size Big"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-home-tabs.php:82
+msgid "Size Medium"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-home-tabs.php:83
+msgid "Size Small"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-home-tabs.php:89
+msgid "Layout Type"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-home-tabs.php:91
+msgid "Full Width"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-home-tabs.php:92
+msgid "Has Sidebar"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-recent-posts.php:23
+msgid "Recent Posts with post thumbnails."
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-recent-posts.php:26
+msgid "Media Center Recent Posts"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-recent-posts.php:58
+msgid "Recent Posts"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-recent-posts.php:142
+msgid "Title:"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-recent-posts.php:145
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:21
+msgid "Home Page like vertical menu."
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:23
+msgid "Media Center Vertical Menu"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:27
+msgid "Shop By Departments"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:28
+msgid "Title for vertical menu"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:33
+#, php-format
+msgid ""
+"Fontawesome Icon Class. Default icon is <em>fa-list</em>. For complete list "
+"of icon classes %s"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:33
+msgid "Click here"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:38
+msgid "Menu ID, slug, or name. Leave it empty to pull all product categories."
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:43
+#: ../settings/mediacenter.config.php:260
+#: ../settings/mediacenter.config.php:284
+#: ../settings/mediacenter.config.php:308
+#: ../settings/mediacenter.config.php:333
+msgid "Dropdown Trigger"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:45
+#: ../settings/mediacenter.config.php:264
+#: ../settings/mediacenter.config.php:288
+#: ../settings/mediacenter.config.php:312
+#: ../settings/mediacenter.config.php:337
+msgid "Click"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:46
+#: ../settings/mediacenter.config.php:265
+#: ../settings/mediacenter.config.php:289
+#: ../settings/mediacenter.config.php:313
+#: ../settings/mediacenter.config.php:338
+msgid "Hover"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:52
+#: ../settings/mediacenter.config.php:270
+#: ../settings/mediacenter.config.php:294
+#: ../settings/mediacenter.config.php:318
+#: ../settings/mediacenter.config.php:343
+msgid "Dropdown Animation"
+msgstr ""
+
+#: ../framework/widgets/class-mc-widget-vertical-menu.php:88
+msgid "Extra Class"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:35
+msgid "LightSpeedIn"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:52
+msgid "General"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:56
+msgid "Favicon"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:57
+msgid ""
+"<em>Upload your custom Favicon image. <br>.ico or .png file required.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:66
+msgid "Your Logo"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:67
+msgid "<em>Upload your logo image. Recommended dimension : 233x54 pixels</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:73
+msgid "Use text instead of logo ?"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:80
+msgid "Logo Text"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:81
+msgid "<em>Will be displayed only if use text logo is checked.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:93
+msgid "Scroll to Top"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:95
+#: ../settings/mediacenter.config.php:137
+#: ../settings/mediacenter.config.php:146
+#: ../settings/mediacenter.config.php:155
+#: ../settings/mediacenter.config.php:180
+#: ../settings/mediacenter.config.php:212
+#: ../settings/mediacenter.config.php:361
+#: ../settings/mediacenter.config.php:381
+#: ../settings/mediacenter.config.php:452
+#: ../settings/mediacenter.config.php:524
+msgid "Enabled"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:96
+#: ../settings/mediacenter.config.php:138
+#: ../settings/mediacenter.config.php:147
+#: ../settings/mediacenter.config.php:156
+#: ../settings/mediacenter.config.php:181
+#: ../settings/mediacenter.config.php:213
+#: ../settings/mediacenter.config.php:362
+#: ../settings/mediacenter.config.php:382
+#: ../settings/mediacenter.config.php:453
+#: ../settings/mediacenter.config.php:525
+msgid "Disabled"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:102
+msgid "Hide Product Title in Breadcrumb ?"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:103
+msgid ""
+"Click Yes if you have longer product titles and the breadcrumb is "
+"overflowing."
+msgstr ""
+
+#: ../settings/mediacenter.config.php:105
+#: ../settings/mediacenter.config.php:163
+#: ../settings/mediacenter.config.php:231
+#: ../settings/mediacenter.config.php:474
+#: ../settings/mediacenter.config.php:534
+#: ../settings/mediacenter.config.php:544
+#: ../settings/mediacenter.config.php:634
+#: ../settings/mediacenter.config.php:655
+#: ../settings/mediacenter.config.php:713
+msgid "Yes"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:106
+#: ../settings/mediacenter.config.php:164
+#: ../settings/mediacenter.config.php:232
+#: ../settings/mediacenter.config.php:475
+#: ../settings/mediacenter.config.php:535
+#: ../settings/mediacenter.config.php:545
+#: ../settings/mediacenter.config.php:635
+#: ../settings/mediacenter.config.php:656
+#: ../settings/mediacenter.config.php:714
+msgid "No"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:114
+msgid "Header"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:120
+msgid "Header Style"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:122
+msgid "Header 1"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:123
+msgid "Header 2"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:131
+msgid "<h3 style=\"margin: 0;\">Top Bar</h3>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:134
+msgid "Top Bar"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:135
+msgid "<em>Enable / Disable the Top Bar.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:143
+msgid "Top Bar Left"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:144
+msgid "<em>Enable / Disable the Top Bar Left Navigation.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:152
+msgid "Top Bar Right"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:153
+msgid "<em>Enable / Disable the Top Bar Right Navigation.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:161
+msgid "Hide Top Bar in mobile"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:177
+msgid "Sticky Header"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:178
+msgid ""
+"<em>Enable / Disable the Sticky Header. Available only for Header Style 2</"
+"em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:187
+msgid "Support Phone Number"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:194
+msgid "Support Email Address"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:204
+msgid "<h3 style=\"margin: 0;\">Search Bar</h3>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:208
+msgid "Live Search"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:217
+msgid "Search Result Template"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:223
+msgid ""
+"Available parameters : {{value}}, {{url}}, {{image}}, {{brand}} and "
+"{{{price}}}"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:227
+msgid "Show Categories Filter"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:236
+msgid "Search Category Dropdown"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:240
+msgid "Include only top level categories"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:241
+msgid "Include all categories"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:250
+msgid "Navigation"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:358
+msgid "Language Switcher"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:363
+msgid "<em>Available only if WPML Plugin is enabled</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:368
+msgid "Language Switcher Position"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:372
+#: ../settings/mediacenter.config.php:391
+msgid "Top Bar Left Menu"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:373
+#: ../settings/mediacenter.config.php:392
+msgid "Top Bar Right Menu"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:378
+msgid "Currency Switcher"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:383
+msgid ""
+"<em>Available only if WPML Plugin and WooCommerce Multilingual is enabled</"
+"em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:387
+msgid "Currency Switcher Position"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:400
+msgid "Footer"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:404
+msgid "Footer Contact Info Text"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:407
+msgid "Feel free to contact us via phone,email or just send us mail."
+msgstr ""
+
+#: ../settings/mediacenter.config.php:411
+msgid "Footer Contact Info Address"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:418
+msgid "Footer Payment Images"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:419
+msgid ""
+"<em>Upload your payment images. Preferred dimension for each image 40x29 px."
+"</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:425
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:426
+msgid "<em>Enter your copyright information here.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:436
+msgid "Shop"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:448
+msgid "Catalog Mode"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:449
+msgid "<em>Enable / Disable the Catalog Mode.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:450
+msgid ""
+"<em>When enabled, the feature Turns Off the shopping functionality of "
+"WooCommerce.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:458
+msgid "Default View"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:459
+msgid "<em>Choose a default view between grid and list views.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:463
+#: ../settings/mediacenter.config.php:615
+msgid "Grid View"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:464
+#: ../settings/mediacenter.config.php:614
+msgid "List View"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:470
+msgid "Remember User View ?"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:471
+msgid "When user switches a view, should we maintain the view in all pages ?"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:481
+msgid "Product item size determines the number of products per row."
+msgstr ""
+
+#: ../settings/mediacenter.config.php:485
+msgid "Small"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:486
+msgid "Medium"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:487
+msgid "Large"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:493
+msgid "Number of Products per Page"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:494
+msgid ""
+"<em>Drag the slider to set the number of products per page <br />to be "
+"listed on the shop page and catalog pages.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:512
+msgid "Product Item Animation"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:513
+msgid "<em>A list of all the product animations.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:521
+msgid "Echo Lazy loading"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:522
+msgid ""
+"<em>Lazy load product images. Product images will not be loaded until "
+"scrolled into view.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:531
+msgid "Hard Crop Images ?"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:532
+msgid "If you do not like your images to be cropped, please select \"No\""
+msgstr ""
+
+#: ../settings/mediacenter.config.php:538
+msgid "You will have to regenerate thumbnails after changing this setting"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:542
+msgid "Show rating in Grid View ?"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:559
+msgid "Shop Page Layout"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:562
+#: ../settings/mediacenter.config.php:574
+msgid "Full-width"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:563
+#: ../settings/mediacenter.config.php:575
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:564
+#: ../settings/mediacenter.config.php:576
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:571
+msgid "Single Product Page Layout"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:582
+msgid "Product Comparision Page"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:583
+msgid "This sets the product comparison page for your shop"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:592
+msgid "Blog"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:596
+msgid "Blog Layout"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:597
+msgid ""
+"<em>Select the layout for the Blog Listing. <br />The second option will "
+"enable the Blog Listing Sidebar.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:608
+msgid "Blog Style"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:609
+msgid "<em>Select the layout style for the Blog Listing.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:613
+msgid "Normal"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:620
+msgid "Full width Density"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:621
+msgid ""
+"Applicable only if you choose <em>without sidebar</em> option for blog layout"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:625
+msgid "Wide"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:626
+msgid "Narrow"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:631
+msgid "Force Excerpt"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:632
+msgid "Show only excerpt instead of blog content in archive pages"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:640
+msgid "Excerpt Length"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:650
+msgid "Styling"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:654
+msgid "Use a predefined color scheme"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:662
+msgid "Main Theme Color"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:663
+msgid "<em>The main color of the site.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:667
+msgid "Green"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:668
+msgid "Blue"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:669
+msgid "Red"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:670
+msgid "Orange"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:671
+msgid "Navy"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:672
+msgid "Dark-green"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:681
+msgid "Using a Custom theme Color"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:682
+msgid "Using a custom color is simple but it requires a few extra steps."
+msgstr ""
+
+#: ../settings/mediacenter.config.php:683
+msgid "Method 1 (Recommended) : Using LESS"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:685
+msgid "Navigate to <em>assets/less/custom-color.less</em> file."
+msgstr ""
+
+#: ../settings/mediacenter.config.php:686
+msgid "On line 7, set <mark>@primary-color</mark> to the color of your choice."
+msgstr ""
+
+#: ../settings/mediacenter.config.php:687
+msgid ""
+"Compile <em>assets/less/custom-color.less</em> file to <em>assets/css/custom-"
+"color.css</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:688
+msgid ""
+"You can also use <a href=\"http://less2css.org\" target=\"_blank\">less2css."
+"org</a> to compile the LESS file and copy the output to <em>assets/css/"
+"custom-color.css</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:690
+msgid "Method 2 : Using CSS and Find and Replace"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:692
+msgid "Navigate to <em>assets/css/green.css</em> file."
+msgstr ""
+
+#: ../settings/mediacenter.config.php:693
+msgid ""
+"Copy the entire file content and paste it in <em>assets/css/custom-color."
+"css</em>."
+msgstr ""
+
+#: ../settings/mediacenter.config.php:694
+msgid ""
+"Open <em>assets/css/custom-color.css</em> file using your favourite code "
+"editor."
+msgstr ""
+
+#: ../settings/mediacenter.config.php:695
+msgid ""
+"Do a find and replace of green color which is #59b210 with your choice of "
+"color."
+msgstr ""
+
+#: ../settings/mediacenter.config.php:696
+msgid ""
+"We have also used darken and lighten version of the primary color. Replace "
+"them as well."
+msgstr ""
+
+#: ../settings/mediacenter.config.php:705
+msgid "Typography"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:709
+msgid "Use default font settings ?"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:710
+msgid "<em>Toggle No if you want to override with your own fonts</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:718
+msgid "Default Font Family"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:719
+msgid "<em>Pick the default font family for your site.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:736
+msgid "Title Font Family"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:737
+msgid "<em>Pick the font family for titles for your site.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:756
+msgid "Social Media"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:760
+msgid "Facebook"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:761
+msgid "<em>Type your Facebook profile URL here.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:767
+msgid "Twitter"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:768
+msgid "<em>Type your Twitter profile URL here.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:774
+msgid "Pinterest"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:775
+msgid "<em>Type your Pinterest profile URL here.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:781
+msgid "LinkedIn"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:782
+msgid "<em>Type your LinkedIn profile URL here.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:787
+msgid "Google+"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:788
+msgid "<em>Type your Google+ profile URL here.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:793
+msgid "RSS"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:794
+msgid "<em>Type your RSS Feed URL here.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:800
+msgid "Tumblr"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:801
+msgid "<em>Type your Tumblr URL here.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:807
+msgid "Instagram"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:808
+msgid "<em>Type your Instagram profile URL here.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:814
+msgid "Youtube"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:815
+msgid "<em>Type your Youtube profile URL here.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:821
+msgid "Vimeo"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:822
+msgid "<em>Type your Vimeo profile URL here.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:828
+msgid "Dribbble"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:829
+msgid "<em>Type your Dribble profile URL here.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:835
+msgid "Stumble Upon"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:836
+msgid "<em>Type your Stumble Upon profile URL here.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:844
+msgid "Custom Code"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:849
+msgid "Custom CSS"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:850
+msgid "<em>Paste your custom CSS code here.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:857
+msgid "Header JavaScript Code"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:858
+msgid ""
+"<em>Paste your custom JS code here. The code will be added to the header of "
+"your site.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:865
+msgid "Footer JavaScript Code"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:866
+msgid ""
+"<em>Here is the place to paste your Google Analytics code or any other JS "
+"code you might want to add to be loaded in the footer of your website.</em>"
+msgstr ""
+
+#: ../settings/mediacenter.config.php:878
+msgid "MC Options"
+msgstr ""
+
+#: ../templates/blog-style/style-grid.php:23
+#: ../templates/blog-style/style-list.php:27
+#, php-format
+msgid "Post Format: %1$s"
+msgstr ""
+
+#: ../woocommerce/compare.php:9
+msgid "Clear all"
+msgstr ""
+
+#: ../woocommerce/compare.php:94
+msgid "No products were added <br /> to the compare table"
+msgstr ""
+
+#: ../woocommerce/compare.php:100 ../woocommerce/wishlist.php:186
+#: ../woocommerce/cart/cart-empty.php:28
+msgid "Return To Shop"
+msgstr ""
+
+#: ../woocommerce/content-product-list-view.php:60
+msgid "Add to Compare"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:21
+#, php-format
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../woocommerce/single-product-reviews.php:23
+msgid "Reviews"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:44
+msgid "There are no reviews yet."
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:57
+msgid "Add a review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:57
+msgid "Be the first to review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:58
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:62
+msgid "Name"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:64
+#: ../woocommerce/order/order-details.php:147
+msgid "Email"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:67
+msgid "Submit"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:73
+msgid "Your Rating"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:74
+msgid "Rate&hellip;"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:75
+msgid "Perfect"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:76
+msgid "Good"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:77
+msgid "Average"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:78
+msgid "Not that bad"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:79
+msgid "Very Poor"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:83
+msgid "Your Review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:92
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: ../woocommerce/wishlist.php:65
+msgid "Remove this product"
+msgstr ""
+
+#: ../woocommerce/wishlist.php:84 ../woocommerce/loop/availability.php:17
+msgid "Out of Stock"
+msgstr ""
+
+#: ../woocommerce/wishlist.php:87 ../woocommerce/loop/availability.php:20
+msgid "In Stock"
+msgstr ""
+
+#: ../woocommerce/wishlist.php:110
+msgid "Free!"
+msgstr ""
+
+#: ../woocommerce/wishlist.php:159
+msgid "Ask an estimate of costs"
+msgstr ""
+
+#: ../woocommerce/wishlist.php:180
+msgid "No products were added <br /> to the wishlist"
+msgstr ""
+
+#: ../woocommerce/cart/cart-empty.php:20
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:16
+#, php-format
+msgid "Shipping #%d"
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:18
+msgid "Shipping and Handling"
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:57
+msgid "Please use the shipping calculator to see available shipping methods."
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:61
+msgid ""
+"Please continue to the checkout and enter your full address to see if there "
+"are any available shipping methods."
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:65
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:74
+#: ../woocommerce/cart/cart-shipping.php:80
+msgid ""
+"There don&lsquo;t seem to be available shipping methods. Please double check "
+"your address, or contact us if you need any help."
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:95
+#: ../woocommerce/cart/cart-totals.php:46
+msgid "Shipping"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:18
+msgid "Cart Totals"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:24
+msgid "Subtotal"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:88 ../woocommerce/cart/cart.php:47
+#: ../woocommerce/checkout/review-order.php:18
+#: ../woocommerce/myaccount/my-orders.php:37
+#: ../woocommerce/myaccount/my-orders.php:63
+#: ../woocommerce/order/order-details.php:23
+msgid "Total"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:99
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:102
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:24
+msgid "Shopping Cart Summary"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:38 ../woocommerce/checkout/form-pay.php:19
+#: ../woocommerce/checkout/review-order.php:17
+#: ../woocommerce/order/order-details.php:22
+msgid "Product"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:41
+msgid "Unit Price"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:44
+msgid "Quantity"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:85
+msgid "Available on backorder"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:127
+msgid "Remove this item"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:147 ../woocommerce/cart/cart.php:149
+msgid "Coupon"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:150 ../woocommerce/checkout/form-coupon.php:25
+msgid "Coupon code"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:151
+msgid "Apply"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:165
+msgid "Update Cart"
+msgstr ""
+
+#: ../woocommerce/cart/cross-sells.php:40
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: ../woocommerce/cart/mini-cart.php:37
+msgid "Your Cart:"
+msgstr ""
+
+#: ../woocommerce/cart/mini-cart.php:86
+msgid "No products in the cart."
+msgstr ""
+
+#: ../woocommerce/cart/mini-cart.php:99
+msgid "View Cart"
+msgstr ""
+
+#: ../woocommerce/cart/mini-cart.php:102
+msgid "Checkout"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:25
+msgid "Calculate Shipping"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:31
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:48
+#: ../woocommerce/cart/shipping-calculator.php:54
+#: ../woocommerce/cart/shipping-calculator.php:66
+msgid "State / county"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:55
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:58
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:75
+msgid "City"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:83
+msgid "Postcode / Zip"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:88
+msgid "Update Totals"
+msgstr ""
+
+#: ../woocommerce/checkout/cart-errors.php:16
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
+msgstr ""
+
+#: ../woocommerce/checkout/cart-errors.php:20
+msgid "Return To Cart"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:15
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:19
+msgid "Billing Details"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:43
+msgid "Create an account?"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:54
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:49
+msgid "Your order"
+msgstr ""
+
+#: ../woocommerce/checkout/form-coupon.php:16
+msgid "Have a coupon?"
+msgstr ""
+
+#: ../woocommerce/checkout/form-coupon.php:16
+msgid "Click here to enter your code"
+msgstr ""
+
+#: ../woocommerce/checkout/form-coupon.php:32
+msgid "Apply Coupon"
+msgstr ""
+
+#: ../woocommerce/checkout/form-login.php:14
+msgid "Returning customer?"
+msgstr ""
+
+#: ../woocommerce/checkout/form-login.php:15
+msgid "Click here to login"
+msgstr ""
+
+#: ../woocommerce/checkout/form-login.php:19
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: ../woocommerce/checkout/form-pay.php:20
+msgid "Qty"
+msgstr ""
+
+#: ../woocommerce/checkout/form-pay.php:21
+msgid "Totals"
+msgstr ""
+
+#: ../woocommerce/checkout/form-pay.php:54
+msgid "Payment"
+msgstr ""
+
+#: ../woocommerce/checkout/form-pay.php:79
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: ../woocommerce/checkout/form-pay.php:89
+msgid "Pay for order"
+msgstr ""
+
+#: ../woocommerce/checkout/form-shipping.php:14
+#: ../woocommerce/myaccount/form-edit-address.php:16
+#: ../woocommerce/myaccount/my-address.php:20
+#: ../woocommerce/order/order-details.php:183
+msgid "Shipping Address"
+msgstr ""
+
+#: ../woocommerce/checkout/form-shipping.php:33
+msgid "Ship to a different address?"
+msgstr ""
+
+#: ../woocommerce/checkout/form-shipping.php:68
+#: ../woocommerce/single-product/tabs/additional-information.php:17
+msgid "Additional Information"
+msgstr ""
+
+#: ../woocommerce/checkout/payment.php:30
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: ../woocommerce/checkout/payment.php:32
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: ../woocommerce/checkout/payment.php:43
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+
+#: ../woocommerce/checkout/payment.php:43
+msgid "Update totals"
+msgstr ""
+
+#: ../woocommerce/checkout/payment.php:53
+#, php-format
+msgid ""
+"I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms &amp; "
+"conditions</a>"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:50
+msgid "Cart Subtotal"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:103
+msgid "Order Total"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:17
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:20
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:22
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:24
+#: ../woocommerce/myaccount/my-orders.php:73
+msgid "Pay"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:32
+#: ../woocommerce/checkout/thankyou.php:63
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:36
+msgid "Order:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:40
+msgid "Date:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:44
+msgid "Total:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:49
+msgid "Payment method:"
+msgstr ""
+
+#: ../woocommerce/global/form-login.php:24
+#: ../woocommerce/myaccount/form-lost-password.php:30
+msgid "Username or email"
+msgstr ""
+
+#: ../woocommerce/global/form-login.php:30
+#: ../woocommerce/myaccount/form-login.php:48
+#: ../woocommerce/myaccount/form-login.php:109
+msgid "Password"
+msgstr ""
+
+#: ../woocommerce/global/form-login.php:39
+#: ../woocommerce/myaccount/form-login.php:57
+msgid "Remember me"
+msgstr ""
+
+#: ../woocommerce/global/form-login.php:43
+#: ../woocommerce/myaccount/form-login.php:61
+msgid "Lost your password?"
+msgstr ""
+
+#: ../woocommerce/global/form-login.php:50
+#: ../woocommerce/myaccount/form-change-password.php:53
+#: ../woocommerce/myaccount/form-login.php:35
+#: ../woocommerce/myaccount/form-login.php:68
+#: ../woocommerce/myaccount/form-lost-password.php:64
+msgid "Login"
+msgstr ""
+
+#: ../woocommerce/global/quantity-input.php:13
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: ../woocommerce/loop/availability.php:26
+msgid "Availability:"
+msgstr ""
+
+#: ../woocommerce/loop/control-bar.php:19
+msgctxt "Grid as in list view/grid view"
+msgid "Grid"
+msgstr ""
+
+#: ../woocommerce/loop/control-bar.php:20
+msgctxt "List as in list view/grid view"
+msgid "List"
+msgstr ""
+
+#: ../woocommerce/loop/no-products-found.php:14
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: ../woocommerce/loop/result-count.php:28
+msgid "Showing the single result"
+msgstr ""
+
+#: ../woocommerce/loop/result-count.php:30
+#, php-format
+msgid "Showing all <span>%d</span> results"
+msgstr ""
+
+#: ../woocommerce/loop/result-count.php:32
+#, php-format
+msgid "Showing <span>%1$d&ndash;%2$d</span> of <span>%3$d</span> results"
+msgstr ""
+
+#: ../woocommerce/loop/sale-flash.php:17
+#: ../woocommerce/single-product/sale-flash.php:16
+msgid "Sale!"
+msgstr ""
+
+#: ../woocommerce/myaccount/btn-goback-myaccount.php:2
+msgid "Go to my account"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-add-payment-method.php:40
+msgid ""
+"Sorry, it seems that there are no payment methods which support adding a new "
+"payment method. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: ../woocommerce/myaccount/form-add-payment-method.php:48
+msgid "Add Payment Method"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-change-password.php:21
+msgid "Change Password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-change-password.php:27
+#: ../woocommerce/myaccount/form-edit-account.php:55
+msgid "Current Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-change-password.php:34
+#: ../woocommerce/myaccount/form-lost-password.php:41
+msgid "New password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-change-password.php:39
+#: ../woocommerce/myaccount/form-lost-password.php:47
+msgid "Re-enter new password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-change-password.php:45
+#: ../woocommerce/myaccount/form-lost-password.php:59
+msgid "Save"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-change-password.php:53
+#: ../woocommerce/myaccount/form-lost-password.php:64
+msgid "Go to Login Page"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:20
+msgid "Edit Account"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:29
+msgid "First name"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:35
+msgid "Last name"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:44
+#: ../woocommerce/myaccount/form-login.php:102
+msgid "Email address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:50
+msgid "Password Change"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:63
+msgid "New Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:69
+msgid "Confirm new password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:81
+msgid "Save changes"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:16
+#: ../woocommerce/myaccount/my-address.php:19
+#: ../woocommerce/myaccount/my-address.php:25
+#: ../woocommerce/order/order-details.php:166
+msgid "Billing Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:63
+msgid "Save Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:36
+msgid "Hello, Welcome to your account"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:43
+msgid "Username or email address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:85
+#: ../woocommerce/myaccount/form-login.php:123
+msgid "Register"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:86
+msgid "Create your own account"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:95
+msgid "Username"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:116
+msgid "Anti-spam"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:26
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:37
+msgid "Enter a new password below."
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:59
+msgid "Reset Password"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-account.php:25
+#, php-format
+msgid "Hello <strong>%1$s</strong> (not %1$s? <a href=\"%2$s\">Sign out</a>)."
+msgstr ""
+
+#: ../woocommerce/myaccount/my-account.php:30
+#, php-format
+msgid ""
+"From your account dashboard you can view your recent orders, manage your "
+"shipping and billing addresses and <a href=\"%s\">edit your password and "
+"account details</a>."
+msgstr ""
+
+#: ../woocommerce/myaccount/my-address.php:17
+msgid "My Addresses"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-address.php:23
+msgid "My Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-address.php:35
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: ../woocommerce/myaccount/my-address.php:64
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: ../woocommerce/myaccount/my-downloads.php:20
+msgid "Available downloads"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-downloads.php:29
+#, php-format
+msgid "%s download remaining"
+msgid_plural "%s downloads remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../woocommerce/myaccount/my-orders.php:28
+msgid "Recent Orders"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:34
+msgid "Order"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:35
+#: ../woocommerce/myaccount/my-orders.php:57
+msgid "Date"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:52
+msgid "Order Number"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:54
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:64
+#, php-format
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../woocommerce/myaccount/my-orders.php:80
+msgid "Cancel"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:86
+msgid "View"
+msgstr ""
+
+#: ../woocommerce/myaccount/view-order.php:19
+#, php-format
+msgid ""
+"Order <mark class=\"order-number\">%s</mark> was placed on <mark class="
+"\"order-date\">%s</mark> and is currently <mark class=\"order-status\">%s</"
+"mark>."
+msgstr ""
+
+#: ../woocommerce/myaccount/view-order.php:25
+#: ../woocommerce/order/tracking.php:31
+msgid "Order Updates"
+msgstr ""
+
+#: ../woocommerce/myaccount/view-order.php:31
+#: ../woocommerce/order/tracking.php:37
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: ../woocommerce/order/form-tracking.php:21
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"return. This was given to you on your receipt and in the confirmation email "
+"you should have received."
+msgstr ""
+
+#: ../woocommerce/order/form-tracking.php:27
+msgid "Order ID"
+msgstr ""
+
+#: ../woocommerce/order/form-tracking.php:28
+msgid "Found in your order confirmation email."
+msgstr ""
+
+#: ../woocommerce/order/form-tracking.php:34
+msgid "Billing Email"
+msgstr ""
+
+#: ../woocommerce/order/form-tracking.php:35
+msgid "Email you used during checkout."
+msgstr ""
+
+#: ../woocommerce/order/form-tracking.php:40
+msgid "Track"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:18
+msgid "Order Details"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:52
+#, php-format
+msgid "Download file%s"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:105
+#: ../woocommerce/order/order-details.php:108
+#, php-format
+msgid "(Includes %s)"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:124
+msgid "Refunded:"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:132
+msgid "Note:"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:143
+msgid "Customer details"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:147
+msgid "Email:"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:150
+msgid "Telephone:"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:150
+msgid "Telephone"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:171
+#: ../woocommerce/order/order-details.php:188
+#: ../woocommerce/single-product/meta.php:31
+msgid "N/A"
+msgstr ""
+
+#: ../woocommerce/order/tracking.php:12
+#, php-format
+msgid "Order %s which was made %s has the status &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../woocommerce/order/tracking.php:12
+msgid "ago"
+msgstr ""
+
+#: ../woocommerce/order/tracking.php:14
+msgid "and was completed"
+msgstr ""
+
+#: ../woocommerce/order/tracking.php:14
+msgid " ago"
+msgstr ""
+
+#: ../woocommerce/single-product/meta.php:30
+msgid "SKU:"
+msgstr ""
+
+#: ../woocommerce/single-product/meta.php:40
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../woocommerce/single-product/meta.php:50
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../woocommerce/single-product/product-attributes.php:28
+msgid "Weight"
+msgstr ""
+
+#: ../woocommerce/single-product/product-attributes.php:35
+msgid "Dimensions"
+msgstr ""
+
+#: ../woocommerce/single-product/rating.php:27
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: ../woocommerce/single-product/rating.php:29
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: ../woocommerce/single-product/rating.php:30
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../woocommerce/single-product/rating.php:33
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../woocommerce/single-product/related.php:44
+msgid "Related Products"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:34
+msgid "verified owner"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:39
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:40
+msgid "out of 5"
+msgstr ""
+
+#: ../woocommerce/single-product/up-sells.php:45
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:29
+msgid "Choose an option"
+msgstr ""
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:64
+msgid "Clear selection"
+msgstr ""
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:95
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: ../woocommerce/single-product/tabs/description.php:14
+msgid "Product Description"
+msgstr ""

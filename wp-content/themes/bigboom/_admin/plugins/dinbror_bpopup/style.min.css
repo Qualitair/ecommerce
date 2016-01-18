@@ -1,0 +1,145 @@
+#admin-custom-popup,
+#admin-custom-popup2,
+.bMulti {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 0px #555;
+    color: #111;
+    display: none;
+    width: auto;
+    min-width: 250px;
+    width: 25%;
+    padding: 25px;
+    border: 3px solid #428bca;
+}
+#admin-custom-popup .logo {
+    color: #2b91af;
+    font: bold 325% 'Petrona', sans
+}
+
+#admin-custom-popup h2 {
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 1px solid #428bca;
+	color: #428bca;
+}
+
+#admin-custom-popup,
+.bMulti {
+    min-height: 100px
+}
+#admin-custom-popup2 iframe {
+    background: url('loader.gif') center center no-repeat;
+    min-height: 240px;
+    min-width: 450px
+}
+#admin-custom-popup .loading {
+    background: url('loader.gif') center center no-repeat
+}
+#admin-custom-popup .bMulti p {
+    font: 500% 'Petrona', sans-serif;
+    padding: 45px 0 0;
+    text-align: center
+}
+#admin-custom-popup .bMulti a {
+    left: 175px;
+    position: absolute;
+    top: 175px
+}
+#admin-custom-popup .lt-ie9 .bModal {
+    background-color: #000
+}
+
+#admin-custom-popup .button.b-close,
+#admin-custom-popup .button.bClose {
+    background-color: #428bca;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none
+    box-shadow: none;
+    font: bold 131% sans-serif;
+    padding: 3px 7px 2px;
+    position: absolute;
+    right: -9px;
+    top: -9px
+}
+.button:hover {
+    background-color: #1e1e1e
+}
+
+/** form admin */
+#admin-custom-popup .form-custom-admin {
+	margin-top: 25px;
+}
+
+#admin-custom-popup .form-custom-admin .customer-desc-label {
+ font-weight: normal;
+ font-size: 15px;
+}
+
+#admin-custom-popup .form-custom-admin .customer-desc-label span {
+	padding: 0 40px;
+	color: #555;
+	display: block;
+}
+
+#admin-custom-popup .form-custom-admin .customer-desc-label i {
+	font-weight: bold;	
+	color: #428bca;
+}
+
+#admin-custom-popup .form-custom-admin .customer-or-label {
+	display: block;
+	text-align: center;
+	border-bottom: 1px solid #428bca;
+	margin: 20px auto;
+	height: 10px;
+}
+
+#admin-custom-popup .form-custom-admin .customer-or-label label {
+	width: 100%;
+}
+
+#admin-custom-popup .form-custom-admin .customer-or-label span {
+	background: #fff;
+	padding: 0px 20px;
+	position: relative;
+	top: -2px;
+}
+
+#admin-custom-popup .form-custom-admin .proceed-btn {
+	background: #07a7ad;
+}
+
+#admin-custom-popup .form-custom-admin .btn-show-login {
+	padding: 0px 30px;
+	border-bottom: 2px solid #fff;
+}
+
+#admin-custom-popup .form-custom-admin .btn-show-login a {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#admin-custom-popup .form-custom-admin.popup-form-login {
+    height: 0px;
+}
+
+#admin-custom-popup .form-custom-admin.popup-form-login,
+#admin-custom-popup .form-custom-admin.popup-form-signup {    
+    position: relative;
+    overflow: hidden;
+}
+
+#admin-custom-popup .form-custom-admin.popup-form-login-toggle {
+    margin-top: 5px;
+}

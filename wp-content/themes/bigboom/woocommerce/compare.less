@@ -1,0 +1,259 @@
+h1 {
+	background-color: transparent;
+	font-size: 16px;
+	color: #444;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+table.compare-list {
+    margin: 10px 0;
+    table-layout: fixed;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+
+    thead,
+    tfoot {
+	    display: none;
+	}
+
+	tr th,
+	tr td,
+	tr .price.repeated td {
+	    padding: 10px;
+	}
+
+	tr th,
+	tr td {
+	    border-bottom: 1px solid #ddd;
+	}
+
+	.remove {
+		td {
+			border-bottom: none;
+			padding-bottom: 0;
+			a {
+			    color: #555;
+			    text-decoration: none;
+
+			    &:hover {
+	    			color: #da4b52;
+	    		}
+
+	    		.remove {
+				   display: none;
+				}
+			}
+		}
+
+		th {
+			border-bottom: none;
+		}
+	}
+
+
+	.image {
+		td {
+			border-bottom: none;
+		}
+
+		th {
+			border-bottom: none;
+		}
+	}
+
+	.title {
+		td {
+			font-family: 'Raleway', Arial, sans-serif;
+			font-size: 14px;
+			font-weight: 700;
+			color: #555;
+			border-bottom: none;
+			padding-top: 0;
+		}
+
+		th {
+			color: #fff;
+			font-size: 0;
+			border-bottom: none;
+		}
+	}
+
+	.price {
+		td {
+			font-family: 'Montserrat', sans-serif;
+			font-size: 16px;
+			font-weight: 400;
+			color: #555;
+			border-bottom: none;
+			padding-top: 0;
+			text-decoration: none;
+		}
+
+		th {
+			color: #fff;
+			font-size: 0;
+			border-bottom: none;
+		}
+	}
+
+	.add-to-cart {
+
+		td {
+			padding-bottom: 40px;
+			a {
+				padding: 10px 12px;
+				background-color: #333;
+				font-family: 'Montserrat', sans-serif;
+				text-transform: uppercase;
+				transition: all 0.5s;
+				color: #fff;
+				border-radius: 0;
+				font-weight: 400;
+				font-size: 12px;
+				border: none;
+				text-decoration: none;
+
+				&:hover {
+					background-color: #da4b52;
+					color: #fff;
+				}
+			}
+		}
+
+		th {
+			color: #fff;
+			font-size: 0;
+		}
+	}
+
+
+	.description td {
+		font-family: 'Raleway', Arial, sans-serif;
+		font-size: 13px;
+		color: #444;
+		line-height: 1.5;
+	}
+
+	.yith-woocompare-widget ul.products-list a.remove {
+	    float: left;
+	}
+
+	.stock td span {
+	    color: #b0d95e;
+	}
+
+	.stock td span.out-of-stock {
+	    color: #aaa;
+	    text-decoration: line-through;
+	}
+
+	tr th .fixed-th {
+	    width: 195px;
+	}
+
+	tr th {
+	    width: 195px;
+	    max-width: 195px;
+	    min-width: 195px;
+	    overflow: hidden;
+	    text-align: center;
+	    font-size: 14px;
+	    color: #444;
+	    font-weight: 700;
+	    font-family: 'Raleway', Arial, sans-serif;
+	}
+
+	tr td {
+	    width: 300px;
+	    max-width: 300px;
+	    min-width: 300px;
+	    text-align: center;
+
+	    &.odd,
+	    &.even {
+	    	border-left: 1px solid #ddd;
+	    }
+
+	    img {
+	    	background: none repeat scroll 0 0 #fff;
+		    border: 1px solid #efefef;
+		    height: auto;
+		    max-width: 100%;
+		    padding: 5px;
+		    max-width: none;
+	    }
+	}
+
+}
+
+.table-wrapper {
+    width: 100%;
+}
+
+.dataTables_scroll {
+	.dataTables_scrollHead {
+		table.compare-list {
+			border-top: 0;
+			border-left: 0;
+			border-right: 0;
+		}
+	}
+
+	.dataTables_scrollBody {
+		table.compare-list {
+			border-left: 0;
+		}
+	}
+
+	.dataTables_scrollFoot {
+		table.compare-list {
+			border: none;
+		}
+	}
+}
+
+.DTFC_LeftWrapper {
+	.DTFC_LeftBodyWrapper {
+		table.compare-list {
+			border-top: 0;
+			border-right: 0;
+
+			.image th .fixed-th {
+				min-height: 154px;
+			}
+		}
+	}
+}
+
+.DTFC_LeftFootWrapper {
+	table.compare-list {
+		border: none;
+	}
+}
+
+.color-scheme-compare( @color ) {
+	table.compare-list {
+	  	.add-to-cart {
+			td {
+				a {
+					&:hover {
+						background-color: @color;
+					}
+				}
+			}
+		}
+	}
+}
+
+.blue { .color-scheme-compare( #428bca ) }
+.green { .color-scheme-compare( #b0d95e ) }
+.orange { .color-scheme-compare( #f08a47 ) }
+.purple { .color-scheme-compare( #c74a73 ) }
+.yellow { .color-scheme-compare( #ff9c00 ) }
+.brown { .color-scheme-compare( #987654 ) }
+.cyan { .color-scheme-compare( #1ABC9C ) }
+.skyblue { .color-scheme-compare( #00cdcd ) }
+.gray { .color-scheme-compare( #656565 ) }
